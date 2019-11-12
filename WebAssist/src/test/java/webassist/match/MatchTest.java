@@ -34,13 +34,13 @@ public class MatchTest extends BaseTest {
 				"No Match not Working");
 	}
 	
-	/*
+	
 	@Test(description="Alert the Possible match from the List") 
 	private void AlertTest() throws InterruptedException {
 		match = new Match(wd);
 		Assert.assertTrue(match.alertTest(userName), 
 				"Alert not Working");
 	}
-	*/
+	
 
 }
