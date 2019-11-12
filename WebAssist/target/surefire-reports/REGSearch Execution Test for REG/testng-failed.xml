@@ -10,9 +10,10 @@
         <methods>
           <include name="RegSearchTestMethodRegInvalid"/>
           <include name="RegSearchTestMethodRegInvalidLength"/>
+          <include name="REGSearchTestMethodREGOutputValidation" invocation-numbers="2 3"/>
           <include name="beforeTestSetup"/>
           <include name="fetchMostRecentTestResult"/>
-          <include name="RegSearchTestMethodRegClear" invocation-numbers="0"/>
+          <include name="RegSearchTestMethodRegClear"/>
           <include name="closeAll"/>
           <include name="beforeSuiteSetup"/>
           <include name="RegSearchTestMethodRegCorrect"/>

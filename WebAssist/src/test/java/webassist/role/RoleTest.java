@@ -4,6 +4,8 @@ import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.Status;
+
 import webassist.BaseTest;
 import webassist.applicationflow.role.Role;
 
@@ -17,6 +19,7 @@ public class RoleTest extends BaseTest {
 	@Parameters({"role"})
 	public void enterRole(String role) throws InterruptedException {
 		oRole = new Role(wd);
+		extentTest.log(Status.INFO,"Role Name : " + role);
 		Assert.assertTrue(oRole.roleSelection(role,userName), 
 				"Unable to select Role");
 	}

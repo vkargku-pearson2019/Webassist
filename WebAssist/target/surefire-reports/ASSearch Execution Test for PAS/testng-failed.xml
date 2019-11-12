@@ -3,21 +3,18 @@
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [ASSearch Execution Test for PAS]">
   <test thread-count="5" verbose="0" name="AS Search by PAS(failed)">
     <parameter name="role" value="SUPER"/>
-    <parameter name="searchType" value="Search By PAS"/>
-    <parameter name="ID" value="401200003"/>
     <parameter name="testDescription" value="AS Search by PAS Test"/>
-    <parameter name="ansSheetField" value="AS Reg #"/>
-    <parameter name="ansSheetFieldValue" value="1000000034"/>
     <classes>
       <class name="webassist.asSearch.ASSearchPASTest">
         <methods>
+          <include name="ASSearchTestMethodPASOutputValidation"/>
           <include name="ASSearchTestMethodPASCorrect"/>
           <include name="ASSearchTestMethodPASPageResults"/>
           <include name="beforeTestSetup"/>
           <include name="fetchMostRecentTestResult"/>
           <include name="ASSearchTestMethodPASClear"/>
           <include name="closeAll"/>
-          <include name="ASSearchTestMethodPASInvalid" invocation-numbers="0"/>
+          <include name="ASSearchTestMethodPASInvalid"/>
           <include name="beforeSuiteSetup"/>
         </methods>
       </class> <!-- webassist.asSearch.ASSearchPASTest -->

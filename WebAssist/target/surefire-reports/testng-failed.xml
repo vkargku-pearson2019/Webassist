@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [ASSearch Execution Test for UIN]">
-  <test thread-count="5" verbose="0" name="AS Search UIN(failed)">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [REGSearch Execution Test for REG]">
+  <test thread-count="5" verbose="0" name="Reg Search REG(failed)">
     <parameter name="role" value="SUPER"/>
-    <parameter name="testDescription" value="AS Search by UIN Test"/>
+    <parameter name="ID" value="1000000001"/>
+    <parameter name="testDescription" value="REG Search by REG Test"/>
     <classes>
-      <class name="webassist.asSearch.ASSearchUINTest">
+      <class name="webassist.regSearch.RegSearchRegTest">
         <methods>
-          <include name="ASSearchTestMethodUINInvalid"/>
-          <include name="ASSearchTestMethodUINPageResults"/>
-          <include name="ASSearchTestMethodUINClear"/>
-          <include name="ASSearchTestMethodUINCorrect"/>
-          <include name="ASSearchTestMethodUINOutputValidation"/>
+          <include name="RegSearchTestMethodRegInvalid"/>
+          <include name="RegSearchTestMethodRegInvalidLength"/>
+          <include name="REGSearchTestMethodREGOutputValidation" invocation-numbers="2 3"/>
           <include name="beforeTestSetup"/>
           <include name="fetchMostRecentTestResult"/>
+          <include name="RegSearchTestMethodRegClear"/>
           <include name="closeAll"/>
           <include name="beforeSuiteSetup"/>
+          <include name="RegSearchTestMethodRegCorrect"/>
         </methods>
-      </class> <!-- webassist.asSearch.ASSearchUINTest -->
+      </class> <!-- webassist.regSearch.RegSearchRegTest -->
     </classes>
-  </test> <!-- AS Search UIN(failed) -->
-</suite> <!-- Failed suite [ASSearch Execution Test for UIN] -->
+  </test> <!-- Reg Search REG(failed) -->
+</suite> <!-- Failed suite [REGSearch Execution Test for REG] -->

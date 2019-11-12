@@ -3,13 +3,6 @@
 <suite name="ASSearch Execution Test for Batch">
 	<test name="AS Search by Batch">
 		<parameter name="testDescription" value="AS Search by Batch Test" />
-		<parameter name="searchType" value="Search By Batch" />
-		<parameter name="adminID" value="082018" />
-		<parameter name="tcID" value="10800" />
-		<parameter name="regID" value="1000000082" />
-		<parameter name="last" value="CONSEC" />
-		<parameter name="first" value="BLNK" />
-		<parameter name="batchID" value="5940" />
 		<parameter name="role" value="SUPER" />
 		<classes>
 			<class name="webassist.login.LoginTest">

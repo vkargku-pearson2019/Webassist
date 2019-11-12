@@ -4,9 +4,6 @@
 
 	<test name="AS Search by TC">
 		<parameter name="testDescription" value="AS Search by TC Test" />
-		<parameter name="searchType" value="Search By Test Centre" />
-		<parameter name="tcID" value="10800" />
-		<parameter name="adminID" value="082018" />
 		<parameter name="role" value="SUPER" />
 		<classes>
 			<class name="webassist.login.LoginTest">

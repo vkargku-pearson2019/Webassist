@@ -6,24 +6,25 @@ import org.testng.annotations.Test;
 
 import webassist.BaseTest;
 import webassist.applicationflow.regSearch.RegSearchTC;
+import webassist.data.GetTestData;
 
 public class RegSearchTCTest extends BaseTest{
 	
 	private RegSearchTC regSearchTC;
+	private String path = "testdata/Reg Search/RegSearchSSD.properties";
+	private String ID = GetTestData.getOutputTestData(path,"ID");
+	private String searchType = GetTestData.getOutputTestData(path,"searchType");
 	
 	@Test(description="Reg SEARCH TC to verify Clear Button is Working")
-	@Parameters({"searchType","ID"}) 
-	private void RegSearchTestMethodTCClear(String searchType,String ID) throws InterruptedException {
+	private void RegSearchTestMethodTCClear() throws InterruptedException {
 		regSearchTC = new RegSearchTC(wd);
 		Assert.assertTrue(regSearchTC.clearDetails(searchType,ID), 
-				"Unable to Clear Name Details");
+				"Unable to Clear TC Details");
 	}
 	
 	@Test(description="Reg SEARCH with Valid TC ID only",
 			dependsOnMethods="RegSearchTestMethodTCClear")
-	@Parameters({"ID"}) 
-	private void RegSearchTestMethodTCID(String ID) throws InterruptedException {
-		regSearchTC = new RegSearchTC(wd);
+	private void RegSearchTestMethodTCID() throws InterruptedException {
 		regSearchTC.RegSearchTCID(ID);
 		Assert.assertTrue(regSearchTC.validateTCLookupButton(), 
 				"TC Dropdown Validation Not Working");
@@ -31,9 +32,7 @@ public class RegSearchTCTest extends BaseTest{
 	
 	@Test(description="Reg SEARCH TC with Valid Test Centre Type only",
 			dependsOnMethods="RegSearchTestMethodTCID")
-	@Parameters({"searchType"}) 
-	private void RegSearchTestMethodTCDropdown(String searchType) throws InterruptedException {
-		regSearchTC = new RegSearchTC(wd);
+	private void RegSearchTestMethodTCDropdown() throws InterruptedException {
 		regSearchTC.clickClearButton();
 		regSearchTC.RegSearchTC(searchType,"");
 		Assert.assertTrue(regSearchTC.validateTCLookupButton(), 
@@ -42,10 +41,8 @@ public class RegSearchTCTest extends BaseTest{
 	
 	@Test(description="Reg SEARCH TC with all Valid details",
 			dependsOnMethods="RegSearchTestMethodTCDropdown")
-	@Parameters({"searchType","ID"}) 
-	private void RegSearchTestMethodTCCorrect(String searchType,String ID) throws InterruptedException {
-		regSearchTC = new RegSearchTC(wd);
-		Assert.assertTrue(regSearchTC.RegSearchTC(searchType, ID), 
+	private void RegSearchTestMethodTCCorrect() throws InterruptedException {
+		Assert.assertTrue(regSearchTC.RegSearchTC(searchType,ID), 
 				"Unable to Search using TC");
 	}
 

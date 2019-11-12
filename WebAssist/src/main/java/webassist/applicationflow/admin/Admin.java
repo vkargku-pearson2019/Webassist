@@ -122,7 +122,11 @@ public class Admin {
 	}
 
 	private Admin enterUserName(String username) {
-		userNameField.sendKeys(username);
+		if(util.isVisible(userNameField, 60)&
+				util.isClickable(userNameField, 60)) {
+			userNameField.sendKeys(username);
+			util.Wait(2);
+		}
 		return this;
 	}
 

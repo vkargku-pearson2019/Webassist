@@ -4,7 +4,6 @@
 
 	<test name="Reg Search Admin">
 		<parameter name="testDescription" value="REG Search by Admin Test" />
-		<parameter name="ID" value="082018" />
 		<parameter name="role" value="SUPER" />
 		<classes>
 			<class name="webassist.login.LoginTest">

@@ -18,6 +18,24 @@
           <include name="beforeSuiteSetup"/>
         </methods>
       </class> <!-- webassist.asSearch.ASSearchUINTest -->
+      <class name="webassist.role.RoleTest">
+        <methods>
+          <include name="beforeTestSetup"/>
+          <include name="fetchMostRecentTestResult"/>
+          <include name="enterRole"/>
+          <include name="closeAll"/>
+          <include name="beforeSuiteSetup"/>
+        </methods>
+      </class> <!-- webassist.role.RoleTest -->
+      <class name="webassist.login.LoginTest">
+        <methods>
+          <include name="loginWebAssistCorrect"/>
+          <include name="beforeTestSetup"/>
+          <include name="fetchMostRecentTestResult"/>
+          <include name="closeAll"/>
+          <include name="beforeSuiteSetup"/>
+        </methods>
+      </class> <!-- webassist.login.LoginTest -->
     </classes>
   </test> <!-- AS Search UIN(failed) -->
 </suite> <!-- Failed suite [ASSearch Execution Test for UIN] -->

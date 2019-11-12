@@ -1,7 +1,8 @@
 package webassist.util;
 
 import java.io.File;
-
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -47,8 +48,11 @@ public class Util {
 		wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//*[contains(text(),'Loading...')]")));
 		util.Wait(2);
 	}
-
-	   
+	
+	/**
+	 * Wait for element to be visible using xpath
+	 */
+   
 	public boolean isVisible(String xpath,int timeInSec) {
 		wait = new WebDriverWait(wd, timeInSec);
 		try{
@@ -61,6 +65,10 @@ public class Util {
 		}
 	}
 	
+	/**
+	 * Wait for element to be visible using web element
+	 */
+	
 	public boolean isVisible(WebElement we,int timeInSec) {
 		wait = new WebDriverWait(wd, timeInSec);
 		try{
@@ -72,6 +80,10 @@ public class Util {
 			return false;
 		}
 	}
+	
+	/**
+	 * Wait for element to be clickable using xpath
+	 */
 
 	public boolean isClickable(String xpath,int timeInSec) {
 		wait = new WebDriverWait(wd, timeInSec);
@@ -85,6 +97,10 @@ public class Util {
 		}
 	}
 	
+	/**
+	 * Wait for element to be clickable using web element
+	 */
+	
 	public boolean isClickable(WebElement we,int timeInSec) {
 		wait = new WebDriverWait(wd, timeInSec);
 		try{
@@ -95,6 +111,14 @@ public class Util {
 			wait = null;
 			return false;
 		}
+	}
+	
+	/**
+	 * Get system time
+	 */
+
+	public String getTime() {
+		return new SimpleDateFormat("yyyy/MM/dd_HH:mm").format(Calendar.getInstance().getTime());	
 	}
 	
 	

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ASSearch Execution Test for PAS]">
+  <test thread-count="5" name="AS Search by PAS(failed)">
+    <parameter name="role" value="SUPER"/>
+    <parameter name="testDescription" value="AS Search by PAS Test"/>
+    <classes>
+      <class name="webassist.asSearch.ASSearchPASTest">
+        <methods>
+          <include name="ASSearchTestMethodPASOutputValidation"/>
+          <include name="ASSearchTestMethodPASCorrect"/>
+          <include name="ASSearchTestMethodPASPageResults"/>
+          <include name="beforeTestSetup"/>
+          <include name="fetchMostRecentTestResult"/>
+          <include name="ASSearchTestMethodPASClear"/>
+          <include name="closeAll"/>
+          <include name="ASSearchTestMethodPASInvalid"/>
+          <include name="beforeSuiteSetup"/>
+        </methods>
+      </class> <!-- webassist.asSearch.ASSearchPASTest -->
+    </classes>
+  </test> <!-- AS Search by PAS(failed) -->
+</suite> <!-- Failed suite [ASSearch Execution Test for PAS] -->

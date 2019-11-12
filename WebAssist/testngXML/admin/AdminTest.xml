@@ -4,9 +4,6 @@
 	<test name="Admin Page Search Test">
 	<parameter name="testDescription" value="Admin Page Username Search Test" />
 		<parameter name="role" value="ADMIN"/>
-		<parameter name="username" value="FITZTI"/>
-		<parameter name="roleStatus" value="Y"/>
-		<parameter name="confViewStatus" value="N" />
 		<classes>
 			<class name="webassist.login.LoginTest">
 				<methods>

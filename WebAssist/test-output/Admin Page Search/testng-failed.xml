@@ -4,13 +4,11 @@
   <test thread-count="5" name="Admin Page Search Test(failed)">
     <parameter name="role" value="ADMIN"/>
     <parameter name="testDescription" value="Admin Page Username Search Test"/>
-    <parameter name="confViewStatus" value="N"/>
-    <parameter name="username" value="FITZTI"/>
-    <parameter name="roleStatus" value="Y"/>
     <classes>
       <class name="webassist.admin.AdminTest">
         <methods>
-          <include name="AdminUsernameAddChangeUser" invocation-numbers="0"/>
+          <include name="AdminUsernameAddRole"/>
+          <include name="AdminUsernameDeleteUser"/>
           <include name="beforeTestSetup"/>
           <include name="fetchMostRecentTestResult"/>
           <include name="AdminUsernameFilter"/>

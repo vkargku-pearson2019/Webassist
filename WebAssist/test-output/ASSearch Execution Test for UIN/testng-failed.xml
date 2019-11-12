@@ -3,8 +3,6 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [ASSearch Execution Test for UIN]">
   <test thread-count="5" name="AS Search UIN(failed)">
     <parameter name="role" value="SUPER"/>
-    <parameter name="searchType" value="Search By UIN"/>
-    <parameter name="ID" value="08201236973423201706"/>
     <parameter name="testDescription" value="AS Search by UIN Test"/>
     <classes>
       <class name="webassist.asSearch.ASSearchUINTest">
@@ -12,7 +10,8 @@
           <include name="ASSearchTestMethodUINInvalid"/>
           <include name="ASSearchTestMethodUINPageResults"/>
           <include name="ASSearchTestMethodUINClear"/>
-          <include name="ASSearchTestMethodUINCorrect" invocation-numbers="0"/>
+          <include name="ASSearchTestMethodUINCorrect"/>
+          <include name="ASSearchTestMethodUINOutputValidation"/>
           <include name="beforeTestSetup"/>
           <include name="fetchMostRecentTestResult"/>
           <include name="closeAll"/>

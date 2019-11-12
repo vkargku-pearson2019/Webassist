@@ -33,40 +33,4 @@ public class GetTestData {
 		return null;
 	}
 
-	@DataProvider(name = "ASSearchOutput") 
-	public static Object[][] outputFieldValues() {
-
-		String path="testdata/ASSearch/ASSearchTest.properties";
-
-		return new Object[][] { { GetTestData.getOutputTestData(path,"uinField"), 
-			GetTestData.getOutputTestData(path,"uin") },
-			{ GetTestData.getOutputTestData(path,"pasField"), 
-			GetTestData.getOutputTestData(path,"pas") },
-			{ GetTestData.getOutputTestData(path,"testCenterField"), 
-			GetTestData.getOutputTestData(path,"testCenterCode") },
-			{ GetTestData.getOutputTestData(path,"adminField"), 
-			GetTestData.getOutputTestData(path,"admin") },
-			{ GetTestData.getOutputTestData(path,"regField"), 
-			GetTestData.getOutputTestData(path,"reg") },
-			{ GetTestData.getOutputTestData(path,"lastNameField"), 
-			GetTestData.getOutputTestData(path,"lastName") },
-			{ GetTestData.getOutputTestData(path,"firstNameField"), 
-			GetTestData.getOutputTestData(path,"firstName") },
-			{ GetTestData.getOutputTestData(path,"dobField"), 
-			GetTestData.getOutputTestData(path,"dob") }
-		};
-
-	}
-	
-	@DataProvider(name = "ASSearchInputUIN") 
-	public static Object[][] inputFieldValues() {
-
-		String path="testdata/ASSearch/ASSearchTest.properties";
-
-		return new Object[][] { { GetTestData.getOutputTestData(path,"uinSearchType"), 
-			GetTestData.getOutputTestData(path,"uin") }
-		};
-
-	}
-
 }

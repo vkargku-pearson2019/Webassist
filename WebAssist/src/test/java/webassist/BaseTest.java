@@ -21,22 +21,23 @@ import webassist.util.Util;
 import java.io.IOException;
 
 public class BaseTest {
-	
+
 	protected static WebDriver wd;
 	private Base base;
 	private Util util;
 	protected static String userName;
 	private String annotatedTestName;
 	protected static ExtentTest extentTest;
-	private String annotatedDescription;
+	//private String annotatedDescription;
 	private static String browserType;
 	private ExtentReports extentReports;
-	
+
 	@BeforeSuite
 	protected void beforeSuiteSetup(ITestContext iTestContext) {
 		//Get Suite Name
 		String suiteName = iTestContext.getCurrentXmlTest().getSuite().getName();
 		browserType = GetEnvironmentData.getAppEnvProperty("browserType");
+
 		//initiate ExtentReportsManager
 		extentReports = ExtentReportsManager.getReporter(suiteName,browserType);
 	}
@@ -49,7 +50,7 @@ public class BaseTest {
 
 		String url =  GetEnvironmentData.getAppEnvProperty("url");
 		extentTest.log(Status.INFO,url);
-
+		extentTest.log(Status.INFO,"Browser : " + browserType);
 		base = new Base();
 		wd = base.launchBrowser(browserType);
 		util = new Util(wd);
@@ -62,42 +63,42 @@ public class BaseTest {
 		ITestNGMethod method = testResult.getMethod();
 
 		switch (status) {
-			case ITestResult.SUCCESS:
-				System.out.println(method.getDescription() + " : PASS ");
-				extentTest.log(Status.PASS, method.getDescription() + " - " + method.getMethodName());
+		case ITestResult.SUCCESS:
+			System.out.println(method.getDescription() + " : PASS ");
+			extentTest.log(Status.PASS, method.getDescription() + " - " + method.getMethodName());
 
-				break;
-			case ITestResult.FAILURE:
-				System.out.println(method.getDescription() + " : FAIL ");
-				String filePath = new CaptureScreenshot(wd).takeFullScreenshot();
-				try {
-					extentTest.log(Status.FAIL, method.getDescription() + " - " + method.getMethodName());
-					extentTest.createNode( method.getDescription() + " - " +
-							method.getMethodName()).fail(String.valueOf(testResult.getThrowable()))
-							.addScreenCaptureFromPath(filePath);
-				} catch (IOException e) {
-					e.printStackTrace();
-				}
+			break;
+		case ITestResult.FAILURE:
+			System.out.println(method.getDescription() + " : FAIL ");
+			String filePath = new CaptureScreenshot(wd).takeFullScreenshot();
+			try {
+				extentTest.log(Status.FAIL, method.getDescription() + " - " + method.getMethodName());
+				extentTest.createNode( method.getDescription() + " - " +
+						method.getMethodName()).fail(String.valueOf(testResult.getThrowable()))
+				.addScreenCaptureFromPath(filePath);
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 
-				break;
-			case ITestResult.SKIP:
-				System.out.println(method.getDescription() + " : SKIP BLOCKED ");
-				extentTest.log(Status.SKIP, method.getDescription() + " - " + method.getMethodName());
-				extentTest.createNode(method.getDescription() + " - " + method.getMethodName()).fail(String.valueOf(testResult.getThrowable()));
+			break;
+		case ITestResult.SKIP:
+			System.out.println(method.getDescription() + " : SKIP BLOCKED ");
+			extentTest.log(Status.SKIP, method.getDescription() + " - " + method.getMethodName());
+			extentTest.createNode(method.getDescription() + " - " + method.getMethodName()).fail(String.valueOf(testResult.getThrowable()));
 
-				break;
-			default:
+			break;
+		default:
 
 		}
 
 	}
-	
-	
+
+
 	@AfterTest
 	protected void closeAll() {
 		wd.quit();
 		ExtentTestManager.endTest();
 	}
-	
+
 
 }

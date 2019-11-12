@@ -74,9 +74,14 @@ public class ASSearchTC {
 	}
 	
 	private ASSearchTC chooseSearchType(String searchType) {
-		searchTypeDrpdwn.click();
-		util.Wait(1);
-		wd.findElement(By.xpath("//span[contains(text(),' "+searchType+" ')]")).click();
+		if(util.isVisible(searchTypeDrpdwn, 60)&
+				util.isClickable(searchTypeDrpdwn, 60)) {
+			util.Wait(3);
+			searchTypeDrpdwn.click();
+			util.Wait(1);
+			wd.findElement(By.xpath("//span[contains(text(),' "+searchType+" ')]")).click();
+			util.Wait(2);
+		}
 		return this;
 	} 
 	
@@ -86,7 +91,7 @@ public class ASSearchTC {
 		util.Wait(1);
 		admin.clear();
 		admin.sendKeys(adminID);
-		util.Wait(1);
+		util.Wait(2);
 		return this;
 	}
 	

@@ -1,69 +1,88 @@
 package webassist.asSearch;
 
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-
 import org.testng.Assert;
-import org.testng.annotations.Parameters;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.Status;
+
 import webassist.BaseTest;
-import webassist.applicationflow.asSearch.ASSearchBatch;
 import webassist.applicationflow.asSearch.ASSearchUIN;
 import webassist.data.GetTestData;
+import webassist.util.Util;
 
 public class ASSearchUINTest extends BaseTest {
 	
 	private ASSearchUIN asSearchUIN;
+	private Util util = new Util(wd);
+	private String path = "testdata/ASSearch/ASSearchUINTest.properties";
+	private String testComment = "Automation Test";
+	private String searchType = GetTestData.getOutputTestData(path,"searchType");
+	private String ID = GetTestData.getOutputTestData(path,"uin");
 	
-	@Test(description="AS SEARCH UIN to verify Clear Button is Working",
-			dataProvider = "ASSearchInputUIN",
-			dataProviderClass = GetTestData.class)
-	private void ASSearchTestMethodUINClear(String searchType,String ID) throws InterruptedException {
+	/**
+	 * 
+	 * @param searchType
+	 * @param ID
+	 * @throws InterruptedException
+	 */
+	@Test(description="AS SEARCH UIN to verify Clear Button is Working")
+	private void ASSearchTestMethodUINClear() throws InterruptedException {
 		asSearchUIN = new ASSearchUIN(wd);
 		Assert.assertTrue(asSearchUIN.clearDetails(searchType,ID), 
 				"Unable to Clear UIN Details");
 	}
 	
-	@Test(description="AS SEARCH with Invalid UIN ",
-			dataProvider = "ASSearchInputUIN",
-			dataProviderClass = GetTestData.class,
+	/**
+	 * 
+	 * @param searchType
+	 * @param ID
+	 * @throws InterruptedException
+	 */
+	@Test(description="AS SEARCH with Invalid UIN",
 			dependsOnMethods="ASSearchTestMethodUINClear")
-	private void ASSearchTestMethodUINInvalid(String searchType,String ID) throws InterruptedException {
-		asSearchUIN = new ASSearchUIN(wd);
+	private void ASSearchTestMethodUINInvalid() throws InterruptedException {
 		asSearchUIN.ASSearchUIN(searchType,"1234");
 		Assert.assertTrue(asSearchUIN.validateWrongID(), 
 				"UIN Validation Not Working");
 	}
 	
 	@Test(description="AS SEARCH with valid UIN ",
-			dataProvider = "ASSearchInputUIN",
-			dataProviderClass = GetTestData.class,
 			dependsOnMethods="ASSearchTestMethodUINInvalid")
-	private void ASSearchTestMethodUINCorrect(String searchType,String ID) throws InterruptedException {
-		asSearchUIN = new ASSearchUIN(wd);		
+	private void ASSearchTestMethodUINCorrect() throws InterruptedException {
 		Assert.assertTrue(asSearchUIN.ASSearchUIN(searchType,ID), 
 				"Unable to Search using UIN ");
 	}
 	
 	@Test(description="AS SEARCH UIN with All Valid Details and Validate Output Details",
-			dataProvider = "ASSearchOutput",
-			dataProviderClass = GetTestData.class,
+			dataProvider = "ASSearchOutputFields",
 			dependsOnMethods="ASSearchTestMethodUINCorrect")
 	private void ASSearchTestMethodUINOutputValidation(String field,String value) throws InterruptedException {
-		asSearchUIN = new ASSearchUIN(wd);
-		Assert.assertTrue(asSearchUIN.verifyASDetailsPage(field,value),
+		String ansSheetField = GetTestData.getOutputTestData(path,field);
+		String ansSheetValue = GetTestData.getOutputTestData(path,value);
+		Assert.assertTrue(asSearchUIN.verifyASDetailsPage(ansSheetField,ansSheetValue),
 				"Unable to get Output using All valid Details of UIN");
+		extentTest.log(Status.INFO,"Verify field value of : " + ansSheetField + ". Value : " + ansSheetValue );
+		
 	}
 	
 	@Test(description="AS SEARCH with valid UIN and post Comment",
 			dependsOnMethods="ASSearchTestMethodUINOutputValidation")
 	private void ASSearchTestMethodUINPageResults() throws InterruptedException {
-		asSearchUIN = new ASSearchUIN(wd);
-		String timeStamp = new SimpleDateFormat("yyyy/MM/dd_HH:mm").format(Calendar.getInstance().getTime());
-		String testComment = "Automation Test";
-		Assert.assertTrue(asSearchUIN.pageResults(testComment+" "+timeStamp), 
+		String timeStamp = util.getTime();
+		String comment=testComment+" "+timeStamp;
+		Assert.assertTrue(asSearchUIN.pageResults(comment), 
 				"Unable to Post Comment");
+		extentTest.log(Status.INFO, "Check that the comment is:" +comment+ "");
+	}
+	
+	@DataProvider(name = "ASSearchOutputFields") 
+	public static Object[][] outputFields() {
+		return new Object[][] { {"uinField","uin"},{"pasField","pas"},
+			{"testCenterField","testCenterCode"},
+			{"adminField","admin"},{"regField","reg"},
+			{"lastNameField","lastName"},{"firstNameField",
+				"firstName"},{"dobField","dob"} };
 	}
 
 }

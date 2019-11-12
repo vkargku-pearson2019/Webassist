@@ -94,9 +94,14 @@ public class ASSearchPAS {
 	}
 
 	private ASSearchPAS chooseSearchType(String searchType) {
-		searchTypeDrpdwn.click();
-		util.Wait(1);
-		wd.findElement(By.xpath("//span[contains(text(),' "+searchType+" ')]")).click();
+		if(util.isVisible(searchTypeDrpdwn, 60) && 
+				util.isClickable(searchTypeDrpdwn, 60)) {
+			util.Wait(3);
+			searchTypeDrpdwn.click();
+			util.Wait(1);
+			wd.findElement(By.xpath("//span[contains(text(),' "+searchType+" ')]")).click();
+			util.Wait(2);
+		}
 		return this;
 	} 
 
@@ -104,6 +109,7 @@ public class ASSearchPAS {
 		wd.findElement(By.xpath("//input[@placeholder='"+typeOfID+"']")).clear();
 		util.Wait(1);
 		wd.findElement(By.xpath("//input[@placeholder='"+typeOfID+"']")).sendKeys(ID);
+		util.Wait(2);
 		return this;
 	}
 

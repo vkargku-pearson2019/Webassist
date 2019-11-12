@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+
 import webassist.util.Util;
 import webassist.util.Verify;
 
@@ -82,9 +83,7 @@ public class ASSearchBatch {
 	private WebElement postCommentButton;
 
 	public boolean ASSearchBatch(String searchType,String adminID,String tcID,String regID,String last,String first,String batchID) {
-		return clickASSearchTab()
-				.chooseSearchType(searchType)
-				.enterDetailsToSearchBatch(adminID,tcID,regID,last,first,batchID)
+		return enterDetailsToSearchBatch(adminID,tcID,regID,last,first,batchID)
 			   .lookup();
 	}
 
@@ -124,14 +123,14 @@ public class ASSearchBatch {
 
 	private ASSearchBatch clickASSearchTab() {
 		asSearchTab.click();
-		util.Wait(5);
+		util.Wait(3);
 		return this;
 	}
 
 	private ASSearchBatch chooseSearchType(String searchType) {
 		if(util.isVisible(searchTypeDrpdwn, 60) && 
 				util.isClickable(searchTypeDrpdwn, 60)) {
-			util.Wait(5);
+			util.Wait(3);
 			searchTypeDrpdwn.click();
 			util.Wait(1);
 			wd.findElement(By.xpath("//span[contains(text(),' "+searchType+" ')]")).click();
@@ -158,6 +157,7 @@ public class ASSearchBatch {
 		util.Wait(1);
 		batch.clear();
 		batch.sendKeys(batchID);
+		util.Wait(2);
 		return this;
 	}
 

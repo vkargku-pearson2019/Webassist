@@ -4,9 +4,6 @@
   <test thread-count="5" verbose="0" name="Admin Page Search Test(failed)">
     <parameter name="role" value="ADMIN"/>
     <parameter name="testDescription" value="Admin Page Username Search Test"/>
-    <parameter name="confViewStatus" value="N"/>
-    <parameter name="username" value="FITZTI"/>
-    <parameter name="roleStatus" value="Y"/>
     <classes>
       <class name="webassist.admin.AdminTest">
         <methods>
@@ -16,7 +13,7 @@
           <include name="fetchMostRecentTestResult"/>
           <include name="AdminUsernameFilter"/>
           <include name="closeAll"/>
-          <include name="AdminUsernameEditUser" invocation-numbers="0"/>
+          <include name="AdminUsernameEditUser"/>
           <include name="beforeSuiteSetup"/>
         </methods>
       </class> <!-- webassist.admin.AdminTest -->

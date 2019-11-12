@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 public class Verify {
 	
@@ -19,6 +20,10 @@ public class Verify {
         util = new Util(wd);
     }
     
+    /**
+     * Wrong Input Validation
+     */
+    
     public boolean validateWrongID() {
 		JavascriptExecutor js = (JavascriptExecutor) wd;
 		if(js.executeScript("return document.querySelectorAll('.cdk-live-announcer-element').length;").toString().equals("1")) {
@@ -27,6 +32,12 @@ public class Verify {
 			return false;
 		}
 	}
+    
+    /**
+     * To verify input fields are Clear 
+     * @param fieldsName
+     * @return
+     */
     
     public boolean verifyClearFields(String fieldsName) {
 		JavascriptExecutor js = (JavascriptExecutor) wd;
@@ -53,6 +64,12 @@ public class Verify {
 		return flag;
 	}
     
+    /**
+     * To verify Comment is Posted
+     * @param comment
+     * @return
+     */
+    
     public boolean verifyComment(String comment) {
 		boolean flag = false;
 		List<WebElement> comments = wd.findElements(commentList);
@@ -69,6 +86,12 @@ public class Verify {
 		return flag;
 	}
     
+    /**
+     * To verify Comment is Deleted
+     * @param comment
+     * @return
+     */
+    
     public boolean verifyDeletedComment(String comment) {
 		boolean flag = false;
 		List<WebElement> comments = wd.findElements(commentList);
@@ -84,6 +107,13 @@ public class Verify {
 		}
 		return flag;
 	}
+    
+    /**
+     * To verify the Output Field Values
+     * @param ansSheetField
+     * @param ansSheetFieldValue
+     * @return
+     */
     
     public boolean verifyASDetailsPageValue(String ansSheetField, String ansSheetFieldValue) {
 		JavascriptExecutor js = (JavascriptExecutor) wd;
@@ -105,4 +135,27 @@ public class Verify {
 		}
 		return flag;
 	}
+    
+    public boolean verifyREGDetailsPageValue(String regSheetField, String regSheetFieldValue) {
+		JavascriptExecutor js = (JavascriptExecutor) wd;
+		String javascriptString = "";
+		boolean flag = false;
+		javascriptString = "var a = document.querySelectorAll('mat-form-field input');" + 
+				"var b;" +  
+				"for(var i=0;i<a.length;i++){" + 
+				"if(a[i].placeholder==='" + regSheetField + "'){" +  
+				"b=a[i].value;" + 
+				"break;" + 
+				"}" +  
+				"};"+
+				"return b;";
+		if(js.executeScript(javascriptString).toString().equals(regSheetFieldValue)) {
+			flag = true;
+		} else {
+			flag = false;
+		}
+		return flag;
+	}
+    
+    
 }

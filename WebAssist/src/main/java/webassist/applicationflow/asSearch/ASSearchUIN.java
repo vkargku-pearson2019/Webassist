@@ -92,13 +92,13 @@ public class ASSearchUIN {
 	}
 
 	private ASSearchUIN chooseSearchType(String searchType) {
-		if(util.isVisible(searchTypeDrpdwn, 30) && 
-				util.isClickable(searchTypeDrpdwn, 30)) {
-			util.Wait(5);
+		if(util.isVisible(searchTypeDrpdwn, 60) && 
+				util.isClickable(searchTypeDrpdwn, 60)) {
+			util.Wait(3);
 			searchTypeDrpdwn.click();
 			util.Wait(1);
 			wd.findElement(By.xpath("//span[contains(text(),' "+searchType+" ')]")).click();
-			util.Wait(5);
+			util.Wait(2);
 		}	
 		return this;
 	} 

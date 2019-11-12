@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Execution Test for MATCH">
+<suite name="Execution Test for MATCH ROLE">
 
 	<test name="MATCH Test">
-	<parameter name="testDescription" value="Match by Role" />
+		<parameter name="testDescription" value="Match by Role" />
 		<parameter name="role" value="MATCH" />
 		<classes>
 			<class name="webassist.login.LoginTest">
@@ -11,13 +11,61 @@
 					<include name="loginWebAssistCorrect" />
 				</methods>
 			</class>
-			<class name="webassist.role.RoleTest" >
-			<methods>
+			<class name="webassist.role.RoleTest">
+				<methods>
 					<include name="enterRole" />
 				</methods>
-				</class>
+			</class>
 			<class name="webassist.match.MatchTest">
+				<methods>
+					<include name="MatchTest" />
+				</methods>
 			</class>
 		</classes>
 	</test>
+
+	<test name="NO MATCH Test">
+		<parameter name="testDescription" value="No Match by Role" />
+		<parameter name="role" value="MATCH" />
+		<classes>
+			<class name="webassist.login.LoginTest">
+				<methods>
+					<include name="loginWebAssistCorrect" />
+				</methods>
+			</class>
+			<class name="webassist.role.RoleTest">
+				<methods>
+					<include name="enterRole" />
+				</methods>
+			</class>
+			<class name="webassist.match.MatchTest">
+				<methods>
+					<include name="NoMatchTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="ALERT Test">
+		<parameter name="testDescription" value="Alert by Role" />
+		<parameter name="role" value="MATCH" />
+		<classes>
+			<class name="webassist.login.LoginTest">
+				<methods>
+					<include name="loginWebAssistCorrect" />
+				</methods>
+			</class>
+			<class name="webassist.role.RoleTest">
+				<methods>
+					<include name="enterRole" />
+				</methods>
+			</class>
+			<class name="webassist.match.MatchTest">
+				<methods>
+					<include name="AlertTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
 </suite>

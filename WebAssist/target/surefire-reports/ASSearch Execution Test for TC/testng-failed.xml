@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [ASSearch Execution Test for TC]">
+  <test thread-count="5" verbose="0" name="AS Search by TC(failed)">
+    <parameter name="role" value="SUPER"/>
+    <parameter name="testDescription" value="AS Search by TC Test"/>
+    <classes>
+      <class name="webassist.asSearch.ASSearchTCTest">
+        <methods>
+          <include name="ASSearchTestMethodTCClear"/>
+          <include name="ASSearchTestMethodTCInvalid"/>
+          <include name="ASSearchTestMethodTCCorrect"/>
+          <include name="ASSearchTestMethodAdminInvalid"/>
+          <include name="beforeTestSetup"/>
+          <include name="fetchMostRecentTestResult"/>
+          <include name="closeAll"/>
+          <include name="beforeSuiteSetup"/>
+        </methods>
+      </class> <!-- webassist.asSearch.ASSearchTCTest -->
+    </classes>
+  </test> <!-- AS Search by TC(failed) -->
+</suite> <!-- Failed suite [ASSearch Execution Test for TC] -->
