@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [ASSearch Execution Test for Batch]">
+  <test thread-count="5" verbose="0" name="AS Search by Batch(failed)">
+    <parameter name="role" value="SUPER"/>
+    <parameter name="last" value="CONSEC"/>
+    <parameter name="searchType" value="Search By Batch"/>
+    <parameter name="adminID" value="082018"/>
+    <parameter name="regID" value="1000000082"/>
+    <parameter name="testDescription" value="AS Search by Batch Test"/>
+    <parameter name="tcID" value="10800"/>
+    <parameter name="batchID" value="5940"/>
+    <parameter name="first" value="BLNK"/>
+    <classes>
+      <class name="webassist.asSearch.ASSearchBatchTest">
+        <methods>
+          <include name="ASSearchTestMethodBatch" invocation-numbers="0"/>
+          <include name="beforeTestSetup"/>
+          <include name="fetchMostRecentTestResult"/>
+          <include name="ASSearchTestMethodBatchOutputValidation"/>
+          <include name="closeAll"/>
+          <include name="beforeSuiteSetup"/>
+        </methods>
+      </class> <!-- webassist.asSearch.ASSearchBatchTest -->
+    </classes>
+  </test> <!-- AS Search by Batch(failed) -->
+</suite> <!-- Failed suite [ASSearch Execution Test for Batch] -->

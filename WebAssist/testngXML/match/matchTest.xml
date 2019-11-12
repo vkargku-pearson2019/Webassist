@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Execution Test for MATCH">
+
+	<test name="MATCH Test">
+	<parameter name="testDescription" value="Match by Role" />
+		<parameter name="role" value="MATCH" />
+		<classes>
+			<class name="webassist.login.LoginTest">
+				<methods>
+					<include name="loginWebAssistCorrect" />
+				</methods>
+			</class>
+			<class name="webassist.role.RoleTest" >
+			<methods>
+					<include name="enterRole" />
+				</methods>
+				</class>
+			<class name="webassist.match.MatchTest">
+			</class>
+		</classes>
+	</test>
+</suite>

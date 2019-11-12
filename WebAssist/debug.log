@@ -1,0 +1,1131 @@
+[0627/144605.927:ERROR:process_memory_win.cc(73)] ReadMemory at 0x13fd40000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x76f50000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\SYSTEM32\ntdll.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x76d30000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\kernel32.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcc80000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\KERNELBASE.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fee0940000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.100\chrome_elf.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefbb70000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\VERSION.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7feff100000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\msvcrt.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefdd70000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\SHELL32.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd6c0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\SHLWAPI.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd650000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\GDI32.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x6a0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\USER32.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd570000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\LPK.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd580000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\USP10.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefeb00000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\ADVAPI32.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefdd50000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\SYSTEM32\sechost.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd740000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\RPCRT4.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefa770000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WINMM.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcba0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\USERENV.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcab0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\profapi.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef7e10000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-core-synch-l1-2-0.DLL
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefdd20000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\IMM32.DLL
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefebe0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\MSCTF.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x140000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\System32\umppc9106.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fec2760000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.100\chrome_child.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd340000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WS2_32.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7feff0f0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\NSI.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefa630000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\IPHLPAPI.DLL
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefa620000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WINNSI.DLL
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefeef0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\ole32.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefee10000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\OLEAUT32.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef7e20000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\OLEACC.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fee9510000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\UIAutomationCore.DLL
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x77100000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\PSAPI.DLL
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefa860000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WTSAPI32.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcac0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WINTRUST.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefccf0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\CRYPT32.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcaa0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\MSASN1.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fedd990000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\DWrite.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7feec690000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\dxgi.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefa830000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\dwmapi.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef1480000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WINSPOOL.DRV
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef7af0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\dbghelp.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefed50000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\COMDLG32.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefb4b0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.24460_none_e3711c5330fd38b4\COMCTL32.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef9090000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WINHTTP.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef8fa0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\webio.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd130000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\urlmon.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcc70000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-ole32-l1-1-0.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcb60000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-shlwapi-l1-1-0.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcb90000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-advapi32-l1-1-0.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcb70000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-user32-l1-1-0.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcc60000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-version-l1-1-0.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcb80000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-normaliz-l1-1-0.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x770f0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\normaliz.DLL
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefce60000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\iertutil.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd870000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WININET.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefc6a0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\Secur32.dll
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefc870000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\SSPICLI.DLL
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef9c30000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\dhcpcsvc.DLL
+[0627/144605.943:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefc900000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.943:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\cryptbase.dll
+[0627/144605.959:ERROR:process_memory_win.cc(73)] ReadMemory at 0x396000 of 40960 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.959:ERROR:process_memory_win.cc(73)] ReadMemory at 0x356d000 of 12288 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.959:ERROR:process_memory_win.cc(73)] ReadMemory at 0x377d000 of 12288 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.959:ERROR:process_memory_win.cc(73)] ReadMemory at 0x3b5c000 of 16384 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.959:ERROR:process_memory_win.cc(73)] ReadMemory at 0x3f1c000 of 16384 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.959:ERROR:process_memory_win.cc(73)] ReadMemory at 0x42df000 of 4096 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.959:ERROR:process_memory_win.cc(73)] ReadMemory at 0x45ae000 of 8192 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.959:ERROR:process_memory_win.cc(73)] ReadMemory at 0x485d000 of 12288 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.959:ERROR:process_memory_win.cc(73)] ReadMemory at 0x4cad000 of 12288 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.959:ERROR:process_memory_win.cc(73)] ReadMemory at 0x506d000 of 12288 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.959:ERROR:process_memory_win.cc(73)] ReadMemory at 0x53dd000 of 12288 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.959:ERROR:process_memory_win.cc(73)] ReadMemory at 0x588d000 of 12288 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.959:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5c1d000 of 12288 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.959:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5fcd000 of 12288 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.959:ERROR:process_memory_win.cc(73)] ReadMemory at 0x625d000 of 12288 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.959:ERROR:process_memory_win.cc(73)] ReadMemory at 0x451320 of 7094 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.959:ERROR:process_memory_win.cc(73)] ReadMemory at 0x452ee0 of 1012 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.959:ERROR:process_memory_win.cc(73)] ReadMemory at 0x4534e8 of 1656 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.959:ERROR:process_memory_win.cc(73)] ReadMemory at 0x453b62 of 118 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.959:ERROR:process_memory_win.cc(73)] ReadMemory at 0x453bda of 1402 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.959:ERROR:process_memory_win.cc(73)] ReadMemory at 0x454156 of 118 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.959:ERROR:process_memory_win.cc(73)] ReadMemory at 0x4541ce of 100 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.959:ERROR:process_memory_win.cc(73)] ReadMemory at 0x454240 of 58 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.959:ERROR:process_memory_win.cc(73)] ReadMemory at 0x4542d0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.959:ERROR:process_memory_win.cc(73)] ReadMemory at 0x4543c0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.959:ERROR:process_memory_win.cc(73)] ReadMemory at 0x4544d8 of 126 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.959:ERROR:process_memory_win.cc(73)] ReadMemory at 0x4547c0 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.959:ERROR:process_memory_win.cc(73)] ReadMemory at 0x454810 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.959:ERROR:process_memory_win.cc(73)] ReadMemory at 0x454930 of 68 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.959:ERROR:process_memory_win.cc(73)] ReadMemory at 0x454980 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.959:ERROR:process_memory_win.cc(73)] ReadMemory at 0x455a80 of 60 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.959:ERROR:process_memory_win.cc(73)] ReadMemory at 0x455c30 of 154 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.959:ERROR:process_memory_win.cc(73)] ReadMemory at 0x455ce0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.959:ERROR:process_memory_win.cc(73)] ReadMemory at 0x4564d0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.974:ERROR:process_memory_win.cc(73)] ReadMemory at 0x456700 of 62 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.974:ERROR:process_memory_win.cc(73)] ReadMemory at 0x456750 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.974:ERROR:process_memory_win.cc(73)] ReadMemory at 0x4568c0 of 62 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.974:ERROR:process_memory_win.cc(73)] ReadMemory at 0x456910 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.974:ERROR:process_memory_win.cc(73)] ReadMemory at 0x4908f0 of 62 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.974:ERROR:process_memory_win.cc(73)] ReadMemory at 0x491550 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.974:ERROR:process_memory_win.cc(73)] ReadMemory at 0x491640 of 58 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.974:ERROR:process_memory_win.cc(73)] ReadMemory at 0x491690 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.974:ERROR:process_memory_win.cc(73)] ReadMemory at 0x491780 of 60 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.974:ERROR:process_memory_win.cc(73)] ReadMemory at 0x4917d0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.974:ERROR:process_memory_win.cc(73)] ReadMemory at 0x4918c0 of 54 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.974:ERROR:process_memory_win.cc(73)] ReadMemory at 0x491900 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.974:ERROR:process_memory_win.cc(73)] ReadMemory at 0x4919f0 of 58 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.974:ERROR:process_memory_win.cc(73)] ReadMemory at 0x491a40 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.974:ERROR:process_memory_win.cc(73)] ReadMemory at 0x491b60 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.974:ERROR:process_memory_win.cc(73)] ReadMemory at 0x491bb0 of 62 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.974:ERROR:process_memory_win.cc(73)] ReadMemory at 0x491c00 of 60 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.974:ERROR:process_memory_win.cc(73)] ReadMemory at 0x491c50 of 58 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.974:ERROR:process_memory_win.cc(73)] ReadMemory at 0x491ca0 of 62 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.974:ERROR:process_memory_win.cc(73)] ReadMemory at 0x491cf0 of 62 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.974:ERROR:process_memory_win.cc(73)] ReadMemory at 0x491d40 of 58 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.974:ERROR:process_memory_win.cc(73)] ReadMemory at 0x491d90 of 58 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.974:ERROR:process_memory_win.cc(73)] ReadMemory at 0x491de0 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.974:ERROR:process_memory_win.cc(73)] ReadMemory at 0x491e30 of 60 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.974:ERROR:process_memory_win.cc(73)] ReadMemory at 0x491e80 of 58 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.974:ERROR:process_memory_win.cc(73)] ReadMemory at 0x491ed0 of 60 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.974:ERROR:process_memory_win.cc(73)] ReadMemory at 0x491f20 of 66 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.974:ERROR:process_memory_win.cc(73)] ReadMemory at 0x491f70 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.974:ERROR:process_memory_win.cc(73)] ReadMemory at 0x491fc0 of 60 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.974:ERROR:process_memory_win.cc(73)] ReadMemory at 0x492010 of 56 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.974:ERROR:process_memory_win.cc(73)] ReadMemory at 0x492060 of 60 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.974:ERROR:process_memory_win.cc(73)] ReadMemory at 0x4920b0 of 60 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.974:ERROR:process_memory_win.cc(73)] ReadMemory at 0x492100 of 62 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.974:ERROR:process_memory_win.cc(73)] ReadMemory at 0x492150 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144605.974:ERROR:process_memory_win.cc(73)] ReadMemory at 0x4921a0 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.083:ERROR:process_memory_win.cc(73)] ReadMemory at 0x4921f0 of 58 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.083:ERROR:process_memory_win.cc(73)] ReadMemory at 0x492240 of 60 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.083:ERROR:process_memory_win.cc(73)] ReadMemory at 0x492290 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.083:ERROR:process_memory_win.cc(73)] ReadMemory at 0x4922e0 of 62 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.083:ERROR:process_memory_win.cc(73)] ReadMemory at 0x492330 of 62 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.083:ERROR:process_memory_win.cc(73)] ReadMemory at 0x492380 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.083:ERROR:process_memory_win.cc(73)] ReadMemory at 0x4923d0 of 58 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.083:ERROR:process_memory_win.cc(73)] ReadMemory at 0x492420 of 60 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.083:ERROR:process_memory_win.cc(73)] ReadMemory at 0x492470 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.083:ERROR:process_memory_win.cc(73)] ReadMemory at 0x4924c0 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.083:ERROR:process_memory_win.cc(73)] ReadMemory at 0x492560 of 62 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.083:ERROR:process_memory_win.cc(73)] ReadMemory at 0x4925b0 of 62 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.083:ERROR:process_memory_win.cc(73)] ReadMemory at 0x492600 of 62 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.083:ERROR:process_memory_win.cc(73)] ReadMemory at 0x492650 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.083:ERROR:process_memory_win.cc(73)] ReadMemory at 0x492b30 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.083:ERROR:process_memory_win.cc(73)] ReadMemory at 0x492c20 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.083:ERROR:process_memory_win.cc(73)] ReadMemory at 0x492d10 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.083:ERROR:process_memory_win.cc(73)] ReadMemory at 0x492e50 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.083:ERROR:process_memory_win.cc(73)] ReadMemory at 0x493770 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.083:ERROR:process_memory_win.cc(73)] ReadMemory at 0x493860 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.083:ERROR:process_memory_win.cc(73)] ReadMemory at 0x493950 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.083:ERROR:process_memory_win.cc(73)] ReadMemory at 0x493a40 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.083:ERROR:process_memory_win.cc(73)] ReadMemory at 0x493b30 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.083:ERROR:process_memory_win.cc(73)] ReadMemory at 0x493c20 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.083:ERROR:process_memory_win.cc(73)] ReadMemory at 0x493d10 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.083:ERROR:process_memory_win.cc(73)] ReadMemory at 0x493e00 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.083:ERROR:process_memory_win.cc(73)] ReadMemory at 0x493ef0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.083:ERROR:process_memory_win.cc(73)] ReadMemory at 0x493fe0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.083:ERROR:process_memory_win.cc(73)] ReadMemory at 0x4940d0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.083:ERROR:process_memory_win.cc(73)] ReadMemory at 0x4941c0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.083:ERROR:process_memory_win.cc(73)] ReadMemory at 0x4942b0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.099:ERROR:process_memory_win.cc(73)] ReadMemory at 0x4943a0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.099:ERROR:process_memory_win.cc(73)] ReadMemory at 0x494490 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.099:ERROR:process_memory_win.cc(73)] ReadMemory at 0x494580 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.099:ERROR:process_memory_win.cc(73)] ReadMemory at 0x494670 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.099:ERROR:process_memory_win.cc(73)] ReadMemory at 0x494760 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.099:ERROR:process_memory_win.cc(73)] ReadMemory at 0x494850 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.099:ERROR:process_memory_win.cc(73)] ReadMemory at 0x494940 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.099:ERROR:process_memory_win.cc(73)] ReadMemory at 0x494a30 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.099:ERROR:process_memory_win.cc(73)] ReadMemory at 0x494b20 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.099:ERROR:process_memory_win.cc(73)] ReadMemory at 0x494c10 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.099:ERROR:process_memory_win.cc(73)] ReadMemory at 0x494d00 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.099:ERROR:process_memory_win.cc(73)] ReadMemory at 0x494df0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.099:ERROR:process_memory_win.cc(73)] ReadMemory at 0x494ee0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.099:ERROR:process_memory_win.cc(73)] ReadMemory at 0x494fd0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.099:ERROR:process_memory_win.cc(73)] ReadMemory at 0x4950c0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.099:ERROR:process_memory_win.cc(73)] ReadMemory at 0x4951b0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.099:ERROR:process_memory_win.cc(73)] ReadMemory at 0x4952a0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.099:ERROR:process_memory_win.cc(73)] ReadMemory at 0x495390 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.099:ERROR:process_memory_win.cc(73)] ReadMemory at 0x495480 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x495570 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x496620 of 104 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x49c9e0 of 158 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x49ca90 of 80 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x49d770 of 114 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x49d820 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x49d910 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x49da00 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x49daf0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x49dbe0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x49dcd0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x49ddc0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x49deb0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x49dfa0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x49e1f0 of 512 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x49ffc0 of 54 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x4a3c90 of 118 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x4a3d10 of 120 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x4a3da0 of 116 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x4a3e20 of 118 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x4a3ec0 of 248 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x4a3fd0 of 120 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x4bffc0 of 592 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1460208 of 512 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x2de44f0 of 512 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x2defb10 of 512 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x2e03510 of 512 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x2e06fb0 of 512 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x2e09070 of 528 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x2e09510 of 944 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x2e0a6b0 of 712 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x2e28510 of 512 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x2e315b8 of 512 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x2e40268 of 512 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x2ec94d0 of 512 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x2ecb958 of 512 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x4899e30 of 512 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x48a22b0 of 576 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x76e3b228 of 512 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x76f57bc8 of 18 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x76f5a6c8 of 576 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x76f5a928 of 672 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x76fb984a of 592 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x76fb9b4a of 512 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x76fb9dba of 512 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x76fbb0fa of 528 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x770780d8 of 40 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x77082dc0 of 48 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x77082e40 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x791b5d07d58 of 512 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.115:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fec46c078c of 512 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.130:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fec71ae7b9 of 512 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.130:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fee096978a of 512 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.130:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcc8b7fd of 512 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.130:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fffff9e000 of 6024 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.130:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fffffa0000 of 6024 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.130:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fffffa2000 of 6024 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.130:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fffffa4000 of 6024 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.130:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fffffa6000 of 6024 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.130:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fffffa8000 of 6024 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.130:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fffffaa000 of 6024 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.130:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fffffac000 of 6024 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.130:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fffffae000 of 6024 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.130:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fffffd3000 of 852 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.130:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fffffd4000 of 6024 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.130:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fffffd6000 of 6024 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.130:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fffffd8000 of 6024 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.130:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fffffda000 of 6024 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.130:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fffffdc000 of 6024 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.130:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fffffddf80 of 6152 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/144606.130:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0627/144645.274:ERROR:process_info.cc(359)] UncheckedAllocate
+[0627/151055.548:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0627/154213.439:ERROR:crashpad_client_win.cc(505)] CreateProcess: The paging file is too small for this operation to complete. (0x5AF)
+[0627/154225.672:ERROR:crashpad_client_win.cc(131)] crash server failed to launch, self-terminating
+[0627/160132.207:ERROR:process_info.cc(359)] UncheckedAllocate
+[0627/161125.901:ERROR:process_info.cc(359)] UncheckedAllocate
+[0627/162542.424:ERROR:process_info.cc(359)] UncheckedAllocate
+[0627/162542.428:ERROR:process_info.cc(359)] UncheckedAllocate
+[0627/163035.799:ERROR:process_reader_win.cc(182)] ResumeThread: Error (0x13D) while retrieving error. (0x57)
+[0627/163035.799:ERROR:process_reader_win.cc(151)] SuspendThread: Error (0x13D) while retrieving error. (0x5)
+[0627/163035.799:ERROR:process_reader_win.cc(151)] SuspendThread: Error (0x13D) while retrieving error. (0x5)
+[0627/163035.799:ERROR:process_reader_win.cc(151)] SuspendThread: Error (0x13D) while retrieving error. (0x5)
+[0627/163035.799:ERROR:process_reader_win.cc(151)] SuspendThread: Error (0x13D) while retrieving error. (0x5)
+[0627/163035.799:ERROR:process_reader_win.cc(151)] SuspendThread: Error (0x13D) while retrieving error. (0x5)
+[0627/163035.799:ERROR:process_reader_win.cc(151)] SuspendThread: Error (0x13D) while retrieving error. (0x5)
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefdd500e8 of 264 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(354)] could not read nt headers from C:\windows\SYSTEM32\sechost.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefdd50000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\SYSTEM32\sechost.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd740000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\RPCRT4.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd740000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\RPCRT4.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefa770000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WINMM.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefa770000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WINMM.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcba0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\USERENV.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcba0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\USERENV.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcab0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\profapi.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcab0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\profapi.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef7e10000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-core-synch-l1-2-0.DLL
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef7e10000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-core-synch-l1-2-0.DLL
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefdd20000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\IMM32.DLL
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefdd20000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\IMM32.DLL
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefebe0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\MSCTF.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefebe0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\MSCTF.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x140000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\System32\umppc9106.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x140000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\System32\umppc9106.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fec2760000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.100\chrome_child.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fec2760000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.100\chrome_child.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd340000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WS2_32.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd340000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WS2_32.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7feff0f0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\NSI.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7feff0f0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\NSI.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefa630000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\IPHLPAPI.DLL
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefa630000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\IPHLPAPI.DLL
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefa620000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WINNSI.DLL
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefa620000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WINNSI.DLL
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefeef0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\ole32.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefeef0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\ole32.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefee10000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\OLEAUT32.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefee10000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\OLEAUT32.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef7e20000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\OLEACC.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef7e20000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\OLEACC.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fee9510000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\UIAutomationCore.DLL
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fee9510000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\UIAutomationCore.DLL
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x77100000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\PSAPI.DLL
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x77100000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\PSAPI.DLL
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefa860000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WTSAPI32.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefa860000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WTSAPI32.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcac0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WINTRUST.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcac0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WINTRUST.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefccf0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\CRYPT32.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefccf0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\CRYPT32.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcaa0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\MSASN1.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcaa0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\MSASN1.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fedd990000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\DWrite.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fedd990000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\DWrite.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7feec690000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\dxgi.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7feec690000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\dxgi.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefa830000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\dwmapi.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefa830000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\dwmapi.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef1480000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WINSPOOL.DRV
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef1480000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WINSPOOL.DRV
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef7af0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\dbghelp.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef7af0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\dbghelp.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefed50000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\COMDLG32.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefed50000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\COMDLG32.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefb4b0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.24460_none_e3711c5330fd38b4\COMCTL32.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefb4b0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.24460_none_e3711c5330fd38b4\COMCTL32.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef9090000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WINHTTP.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef9090000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WINHTTP.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef8fa0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\webio.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef8fa0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\webio.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd130000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\urlmon.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd130000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\urlmon.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcc70000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-ole32-l1-1-0.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcc70000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-ole32-l1-1-0.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcb60000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-shlwapi-l1-1-0.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcb60000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-shlwapi-l1-1-0.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcb90000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-advapi32-l1-1-0.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcb90000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-advapi32-l1-1-0.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcb70000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-user32-l1-1-0.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcb70000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-user32-l1-1-0.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcc60000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-version-l1-1-0.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcc60000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-version-l1-1-0.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcb80000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-normaliz-l1-1-0.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcb80000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-normaliz-l1-1-0.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x770f0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\normaliz.DLL
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x770f0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\normaliz.DLL
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefce60000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\iertutil.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefce60000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\iertutil.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd870000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WININET.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd870000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WININET.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefc6a0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\Secur32.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefc6a0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\Secur32.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefc870000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\SSPICLI.DLL
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefc870000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\SSPICLI.DLL
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef9c30000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\dhcpcsvc.DLL
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef9c30000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\dhcpcsvc.DLL
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefc900000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\cryptbase.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefc900000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\cryptbase.dll
+[0627/163035.877:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7707c9c0 of 8 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.877:ERROR:process_snapshot_win.cc(311)] failed to read target address
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x13fd40000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x76f50000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\SYSTEM32\ntdll.dll
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x76d30000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\kernel32.dll
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcc80000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\KERNELBASE.dll
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fee0940000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.100\chrome_elf.dll
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefbb70000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\VERSION.dll
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7feff100000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\msvcrt.dll
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefdd70000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\SHELL32.dll
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd6c0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\SHLWAPI.dll
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd650000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\GDI32.dll
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x660000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\USER32.dll
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd570000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\LPK.dll
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd580000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\USP10.dll
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefeb00000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\ADVAPI32.dll
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefdd50000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\SYSTEM32\sechost.dll
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd740000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\RPCRT4.dll
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefa770000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WINMM.dll
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcba0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\USERENV.dll
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcab0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\profapi.dll
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef7e10000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-core-synch-l1-2-0.DLL
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefdd20000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\IMM32.DLL
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefebe0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\MSCTF.dll
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x140000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\System32\umppc9106.dll
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fec2760000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.100\chrome_child.dll
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd340000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WS2_32.dll
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7feff0f0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\NSI.dll
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefa630000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\IPHLPAPI.DLL
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefa620000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WINNSI.DLL
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefeef0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\ole32.dll
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefee10000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\OLEAUT32.dll
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef7e20000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\OLEACC.dll
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fee9510000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\UIAutomationCore.DLL
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x77100000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\PSAPI.DLL
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefa860000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WTSAPI32.dll
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcac0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WINTRUST.dll
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefccf0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\CRYPT32.dll
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcaa0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.940:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\MSASN1.dll
+[0627/163035.940:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fedd990000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\DWrite.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7feec690000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\dxgi.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefa830000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\dwmapi.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef1480000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WINSPOOL.DRV
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef7af0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\dbghelp.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefed50000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\COMDLG32.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefb4b0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.24460_none_e3711c5330fd38b4\COMCTL32.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef9090000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WINHTTP.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef8fa0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\webio.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd130000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\urlmon.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcc70000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-ole32-l1-1-0.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcb60000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-shlwapi-l1-1-0.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcb90000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-advapi32-l1-1-0.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcb70000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-user32-l1-1-0.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcc60000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-version-l1-1-0.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcb80000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-normaliz-l1-1-0.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x770f0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\normaliz.DLL
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefce60000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\iertutil.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd870000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WININET.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefc6a0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\Secur32.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefc870000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\SSPICLI.DLL
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef9c30000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\dhcpcsvc.DLL
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefc900000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\cryptbase.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x13fd40000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x13fd40000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x76f50000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\SYSTEM32\ntdll.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x76f50000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\SYSTEM32\ntdll.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x76d30000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\kernel32.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x76d30000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\kernel32.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcc80000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\KERNELBASE.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcc80000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\KERNELBASE.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fee0940000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.100\chrome_elf.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fee0940000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.100\chrome_elf.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefbb70000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\VERSION.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefbb70000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\VERSION.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7feff100000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\msvcrt.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7feff100000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\msvcrt.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefdd70000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\SHELL32.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefdd70000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\SHELL32.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd6c0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\SHLWAPI.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd6c0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\SHLWAPI.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd650000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\GDI32.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd650000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\GDI32.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x660000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\USER32.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x660000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\USER32.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd570000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\LPK.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd570000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\LPK.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd580000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\USP10.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd580000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\USP10.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefeb00000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\ADVAPI32.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefeb00000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\ADVAPI32.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefdd50000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\SYSTEM32\sechost.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefdd50000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\SYSTEM32\sechost.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd740000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\RPCRT4.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd740000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\RPCRT4.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefa770000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WINMM.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefa770000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WINMM.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcba0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\USERENV.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcba0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\USERENV.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcab0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\profapi.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcab0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\profapi.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef7e10000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-core-synch-l1-2-0.DLL
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef7e10000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-core-synch-l1-2-0.DLL
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefdd20000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\IMM32.DLL
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefdd20000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\IMM32.DLL
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefebe0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\MSCTF.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefebe0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\MSCTF.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x140000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\System32\umppc9106.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x140000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\System32\umppc9106.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fec2760000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.100\chrome_child.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fec2760000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.100\chrome_child.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd340000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WS2_32.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd340000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WS2_32.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7feff0f0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\NSI.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7feff0f0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\NSI.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefa630000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\IPHLPAPI.DLL
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefa630000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\IPHLPAPI.DLL
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefa620000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WINNSI.DLL
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefa620000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WINNSI.DLL
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefeef0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\ole32.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefeef0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\ole32.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefee10000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\OLEAUT32.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefee10000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\OLEAUT32.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef7e20000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\OLEACC.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef7e20000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\OLEACC.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fee9510000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\UIAutomationCore.DLL
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fee9510000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\UIAutomationCore.DLL
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x77100000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\PSAPI.DLL
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x77100000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\PSAPI.DLL
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefa860000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WTSAPI32.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefa860000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WTSAPI32.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcac0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WINTRUST.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcac0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WINTRUST.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefccf0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\CRYPT32.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefccf0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\CRYPT32.dll
+[0627/163035.955:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcaa0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.955:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\MSASN1.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcaa0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\MSASN1.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fedd990000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\DWrite.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fedd990000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\DWrite.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7feec690000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\dxgi.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7feec690000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\dxgi.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefa830000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\dwmapi.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefa830000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\dwmapi.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef1480000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WINSPOOL.DRV
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef1480000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WINSPOOL.DRV
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef7af0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\dbghelp.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef7af0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\dbghelp.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefed50000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\COMDLG32.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefed50000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\COMDLG32.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefb4b0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.24460_none_e3711c5330fd38b4\COMCTL32.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefb4b0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.24460_none_e3711c5330fd38b4\COMCTL32.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef9090000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WINHTTP.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef9090000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WINHTTP.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef8fa0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\webio.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef8fa0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\webio.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd130000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\urlmon.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd130000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\urlmon.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcc70000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-ole32-l1-1-0.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcc70000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-ole32-l1-1-0.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcb60000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-shlwapi-l1-1-0.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcb60000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-shlwapi-l1-1-0.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcb90000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-advapi32-l1-1-0.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcb90000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-advapi32-l1-1-0.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcb70000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-user32-l1-1-0.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcb70000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-user32-l1-1-0.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcc60000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-version-l1-1-0.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcc60000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-version-l1-1-0.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcb80000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-normaliz-l1-1-0.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcb80000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-normaliz-l1-1-0.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x770f0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\normaliz.DLL
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x770f0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\normaliz.DLL
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefce60000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\iertutil.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefce60000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\iertutil.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd870000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WININET.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd870000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WININET.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefc6a0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\Secur32.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefc6a0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\Secur32.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefc870000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\SSPICLI.DLL
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefc870000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\SSPICLI.DLL
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef9c30000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\dhcpcsvc.DLL
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef9c30000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\dhcpcsvc.DLL
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefc900000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\cryptbase.dll
+[0627/163035.971:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefc900000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163035.971:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\cryptbase.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x13fd40000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x76f50000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\SYSTEM32\ntdll.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x76d30000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\kernel32.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcc80000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\KERNELBASE.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fee0940000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.100\chrome_elf.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefbb70000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\VERSION.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7feff100000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\msvcrt.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefdd70000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\SHELL32.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd6c0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\SHLWAPI.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd650000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\GDI32.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x660000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\USER32.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd570000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\LPK.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd580000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\USP10.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefeb00000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\ADVAPI32.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefdd50000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\SYSTEM32\sechost.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd740000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\RPCRT4.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefa770000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WINMM.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcba0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\USERENV.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcab0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\profapi.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef7e10000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-core-synch-l1-2-0.DLL
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefdd20000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\IMM32.DLL
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefebe0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\MSCTF.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x140000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\System32\umppc9106.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fec2760000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.100\chrome_child.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd340000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WS2_32.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7feff0f0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\NSI.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefa630000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\IPHLPAPI.DLL
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefa620000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WINNSI.DLL
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefeef0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\ole32.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefee10000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\OLEAUT32.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef7e20000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\OLEACC.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fee9510000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\UIAutomationCore.DLL
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x77100000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\PSAPI.DLL
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefa860000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WTSAPI32.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcac0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WINTRUST.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefccf0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\CRYPT32.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcaa0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\MSASN1.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fedd990000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\DWrite.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7feec690000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\dxgi.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefa830000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\dwmapi.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef1480000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WINSPOOL.DRV
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef7af0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\dbghelp.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefed50000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\COMDLG32.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefb4b0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.24460_none_e3711c5330fd38b4\COMCTL32.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef9090000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WINHTTP.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef8fa0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\webio.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd130000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\urlmon.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcc70000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-ole32-l1-1-0.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcb60000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-shlwapi-l1-1-0.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcb90000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-advapi32-l1-1-0.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcb70000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-user32-l1-1-0.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcc60000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-version-l1-1-0.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcb80000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\api-ms-win-downlevel-normaliz-l1-1-0.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x770f0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\normaliz.DLL
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefce60000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\iertutil.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefd870000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\WININET.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefc6a0000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\Secur32.dll
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefc870000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\SSPICLI.DLL
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef9c30000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\dhcpcsvc.DLL
+[0627/163036.002:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefc900000 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.002:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\windows\system32\cryptbase.dll
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x38b000 of 20480 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x561320 of 7064 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x562ec0 of 1012 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5634c8 of 1656 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x563b42 of 118 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x563bba of 1406 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x56413a of 118 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5641b2 of 100 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x564230 of 58 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5642c0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5643b0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5644c8 of 126 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5647b0 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x564800 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x564920 of 68 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x564970 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x565a70 of 60 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x565c20 of 154 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x565cd0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5664c0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5666f0 of 62 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x566740 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5668b0 of 62 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x566900 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a08e0 of 62 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a1540 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a1630 of 58 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a1680 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a1770 of 60 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a17c0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a18b0 of 54 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a18f0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a19e0 of 58 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a1a30 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a1b50 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a1ba0 of 62 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a1bf0 of 60 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a1c40 of 58 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a1c90 of 62 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a1ce0 of 62 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a1d30 of 58 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a1d80 of 58 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a1dd0 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a1e20 of 60 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a1e70 of 58 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a1ec0 of 60 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a1f10 of 66 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a1f60 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a1fb0 of 60 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a2000 of 56 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a2050 of 60 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a20a0 of 60 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a20f0 of 62 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a2140 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a2190 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a21e0 of 58 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a2230 of 60 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a2280 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a22d0 of 62 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a2320 of 62 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a2370 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a23c0 of 58 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.018:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a2410 of 60 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a2460 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a24b0 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a2550 of 62 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a25a0 of 62 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a25f0 of 62 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a2640 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a2b20 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a2c10 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a2d00 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a2e40 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a3760 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a3850 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a3940 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a3a30 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a3b20 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a3c10 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a3d00 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a3df0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a3ee0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a3fd0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a40c0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a41b0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a42a0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a4390 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a4480 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a4570 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a4660 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a4750 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a4840 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a4930 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a4a20 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a4b10 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a4c00 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a4cf0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a4de0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a4ed0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a4fc0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a50b0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a51a0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a5290 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a5380 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a5470 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a5560 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5a6610 of 104 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5ac9d0 of 118 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5aca80 of 80 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5ad760 of 114 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5affb0 of 54 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5b3c40 of 120 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5b3cd0 of 116 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5b3d50 of 118 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5b3dd0 of 120 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5b3e70 of 248 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5b4f10 of 158 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5bca10 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5bcb00 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5bcbf0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5bcce0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5bcdd0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5bcec0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5bcfb0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.033:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5bd0a0 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.064:ERROR:process_memory_win.cc(73)] ReadMemory at 0x5bd190 of 132 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.064:ERROR:process_memory_win.cc(73)] ReadMemory at 0x76e3b228 of 512 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.064:ERROR:process_memory_win.cc(73)] ReadMemory at 0x76f57bc8 of 18 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.064:ERROR:process_memory_win.cc(73)] ReadMemory at 0x76fb9b4a of 512 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.064:ERROR:process_memory_win.cc(73)] ReadMemory at 0x770780d8 of 40 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.064:ERROR:process_memory_win.cc(73)] ReadMemory at 0x77082dc0 of 48 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.064:ERROR:process_memory_win.cc(73)] ReadMemory at 0x77082e40 of 64 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.064:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fec7d20b40 of 512 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.064:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fec7d22290 of 512 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.064:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fee096978a of 512 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.064:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fefcc8b7fd of 512 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.064:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fffffd9000 of 852 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.064:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fffffddf80 of 6152 bytes failed: Error (0x13D) while retrieving error. (0x12B)
+[0627/163036.064:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0627/163114.745:ERROR:process_info.cc(359)] UncheckedAllocate

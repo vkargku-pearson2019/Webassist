@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login : WebAssist">
+
+	<test name="Login : Invalid User Name">
+		<parameter name="testDescription" value="Invalid User Name Test" />
+		<classes>
+			<class name="webassist.login.LoginTest">
+				<methods>
+					<include name="loginWebAssistIncorrectUserName"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Login : Invalid Password">
+		<parameter name="testDescription" value="Invalid Password Test" />
+		<classes>
+			<class name="webassist.login.LoginTest">
+				<methods>
+					<include name="loginWebAssistIncorrectPassword"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Login : Valid Credentials">
+		<parameter name="testDescription" value="Login to WebAssist with valid credentials Test" />
+		<classes>
+			<class name="webassist.login.LoginTest">
+				<methods>
+					<include name="loginWebAssistCorrect"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>

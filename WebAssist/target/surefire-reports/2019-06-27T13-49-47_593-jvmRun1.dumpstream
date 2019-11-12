@@ -1,0 +1,21 @@
+# Created on 2019-06-27T13:52:41.839
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created on 2019-06-27T13:52:55.405
+Unexpected IOException: 6,1,webassist.asSearch.ASSearchBatchTest,ASSearchTestMethodBatchAdminTC(webassist.asSearch.ASSearchBatchTest),null,null,null
+
+
+# Created on 2019-06-27T13:52:55.405
+Unexpected IOException with stream: AS SEARCH Batch with Valid Admin and TC Details : PASS 
+
+
+# Created on 2019-06-27T13:52:55.405
+Unexpected IOException: 5,1,webassist.asSearch.ASSearchBatchTest,ASSearchTestMethodBatchAdminTCReg(webassist.asSearch.ASSearchBatchTest),webassist.asSearch.ASSearchBatchTest,null,null
+
+

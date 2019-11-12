@@ -1,0 +1,242 @@
+# Created on 2019-07-11T16:12:24.645
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created on 2019-07-11T16:12:32.209
+Unexpected IOException: 8,1,webassist.login.LoginTest,loginWebAssistCorrect(webassist.login.LoginTest),null,chrome not reachable\000A  (Session info: chrome=75.0.3770.100)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: '01HW808506'\002C ip: '10.151.254.37'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_141'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 75.0.3770.100\002C chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f...\002C userDataDir: C:\005CUsers\005C1436866\005CAppData\005CLo...}\002C goog:chromeOptions: {debuggerAddress: localhost:56521}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: e860953530db52f2e87ea81926b17078\000A*** Element info: {Using=xpath\002C value=//input[@placeholder='Username']},null,chrome not reachable\000A  (Session info: chrome=75.0.3770.100)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: '01HW808506'\002C ip: '10.151.254.37'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_141'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 75.0.3770.100\002C chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f...\002C userDataDir: C:\005CUsers\005C1436866\005CAppData\005CLo...}\002C goog:chromeOptions: {debuggerAddress: localhost:56521}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: e860953530db52f2e87ea81926b17078\000A*** Element info: {Using=xpath\002C value=//input[@placeholder='Username']},LoginTest.loginWebAssistCorrect:43 \00BB WebDriver chrome not reachable\000A  (Session...,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=75.0.3770.100)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: '01HW808506'\002C ip: '10.151.254.37'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_141'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 75.0.3770.100\002C chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f...\002C userDataDir: C:\005CUsers\005C1436866\005CAppData\005CLo...}\002C goog:chromeOptions: {debuggerAddress: localhost:56521}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: e860953530db52f2e87ea81926b17078\000A*** Element info: {Using=xpath\002C value=//input[@placeholder='Username']}\000A\0009at webassist.login.LoginTest.loginWebAssistCorrect(LoginTest.java:43)\000A
+
+
+# Created on 2019-07-11T16:12:32.212
+Unexpected IOException with stream: Login to WebAssist with valid credentials : FAIL 
+
+
+# Created on 2019-07-11T16:12:34.256
+Unexpected IOException with stream: [
+
+# Created on 2019-07-11T16:12:34.258
+Unexpected IOException with stream: 1
+
+# Created on 2019-07-11T16:12:34.259
+Unexpected IOException with stream: 5
+
+# Created on 2019-07-11T16:12:34.261
+Unexpected IOException with stream: 6
+
+# Created on 2019-07-11T16:12:34.263
+Unexpected IOException with stream: 2
+
+# Created on 2019-07-11T16:12:34.264
+Unexpected IOException with stream: 8
+
+# Created on 2019-07-11T16:12:34.266
+Unexpected IOException with stream: 4
+
+# Created on 2019-07-11T16:12:34.267
+Unexpected IOException with stream: 1
+
+# Created on 2019-07-11T16:12:34.269
+Unexpected IOException with stream: 7
+
+# Created on 2019-07-11T16:12:34.270
+Unexpected IOException with stream: 5
+
+# Created on 2019-07-11T16:12:34.271
+Unexpected IOException with stream: 4
+
+# Created on 2019-07-11T16:12:34.272
+Unexpected IOException with stream: .
+
+# Created on 2019-07-11T16:12:34.274
+Unexpected IOException with stream: 2
+
+# Created on 2019-07-11T16:12:34.275
+Unexpected IOException with stream: 5
+
+# Created on 2019-07-11T16:12:34.276
+Unexpected IOException with stream: 3
+
+# Created on 2019-07-11T16:12:34.277
+Unexpected IOException with stream: ]
+
+# Created on 2019-07-11T16:12:34.279
+Unexpected IOException with stream: [
+
+# Created on 2019-07-11T16:12:34.280
+Unexpected IOException with stream: W
+
+# Created on 2019-07-11T16:12:34.281
+Unexpected IOException with stream: A
+
+# Created on 2019-07-11T16:12:34.283
+Unexpected IOException with stream: R
+
+# Created on 2019-07-11T16:12:34.285
+Unexpected IOException with stream: N
+
+# Created on 2019-07-11T16:12:34.286
+Unexpected IOException with stream: I
+
+# Created on 2019-07-11T16:12:34.289
+Unexpected IOException with stream: N
+
+# Created on 2019-07-11T16:12:34.290
+Unexpected IOException with stream: G
+
+# Created on 2019-07-11T16:12:34.292
+Unexpected IOException with stream: ]
+
+# Created on 2019-07-11T16:12:34.293
+Unexpected IOException with stream: :
+
+# Created on 2019-07-11T16:12:34.295
+Unexpected IOException with stream:  
+
+# Created on 2019-07-11T16:12:34.296
+Unexpected IOException with stream: T
+
+# Created on 2019-07-11T16:12:34.297
+Unexpected IOException with stream: i
+
+# Created on 2019-07-11T16:12:34.298
+Unexpected IOException with stream: m
+
+# Created on 2019-07-11T16:12:34.300
+Unexpected IOException with stream: e
+
+# Created on 2019-07-11T16:12:34.301
+Unexpected IOException with stream: d
+
+# Created on 2019-07-11T16:12:34.302
+Unexpected IOException with stream:  
+
+# Created on 2019-07-11T16:12:34.304
+Unexpected IOException with stream: o
+
+# Created on 2019-07-11T16:12:34.305
+Unexpected IOException with stream: u
+
+# Created on 2019-07-11T16:12:34.306
+Unexpected IOException with stream: t
+
+# Created on 2019-07-11T16:12:34.308
+Unexpected IOException with stream:  
+
+# Created on 2019-07-11T16:12:34.309
+Unexpected IOException with stream: c
+
+# Created on 2019-07-11T16:12:34.311
+Unexpected IOException with stream: o
+
+# Created on 2019-07-11T16:12:34.313
+Unexpected IOException with stream: n
+
+# Created on 2019-07-11T16:12:34.315
+Unexpected IOException with stream: n
+
+# Created on 2019-07-11T16:12:34.317
+Unexpected IOException with stream: e
+
+# Created on 2019-07-11T16:12:34.318
+Unexpected IOException with stream: c
+
+# Created on 2019-07-11T16:12:34.320
+Unexpected IOException with stream: t
+
+# Created on 2019-07-11T16:12:34.321
+Unexpected IOException with stream: i
+
+# Created on 2019-07-11T16:12:34.322
+Unexpected IOException with stream: n
+
+# Created on 2019-07-11T16:12:34.324
+Unexpected IOException with stream: g
+
+# Created on 2019-07-11T16:12:34.325
+Unexpected IOException with stream:  
+
+# Created on 2019-07-11T16:12:34.326
+Unexpected IOException with stream: t
+
+# Created on 2019-07-11T16:12:34.327
+Unexpected IOException with stream: o
+
+# Created on 2019-07-11T16:12:34.329
+Unexpected IOException with stream:  
+
+# Created on 2019-07-11T16:12:34.330
+Unexpected IOException with stream: C
+
+# Created on 2019-07-11T16:12:34.331
+Unexpected IOException with stream: h
+
+# Created on 2019-07-11T16:12:34.332
+Unexpected IOException with stream: r
+
+# Created on 2019-07-11T16:12:34.334
+Unexpected IOException with stream: o
+
+# Created on 2019-07-11T16:12:34.335
+Unexpected IOException with stream: m
+
+# Created on 2019-07-11T16:12:34.337
+Unexpected IOException with stream: e
+
+# Created on 2019-07-11T16:12:34.339
+Unexpected IOException with stream: ,
+
+# Created on 2019-07-11T16:12:34.340
+Unexpected IOException with stream:  
+
+# Created on 2019-07-11T16:12:34.342
+Unexpected IOException with stream: r
+
+# Created on 2019-07-11T16:12:34.343
+Unexpected IOException with stream: e
+
+# Created on 2019-07-11T16:12:34.344
+Unexpected IOException with stream: t
+
+# Created on 2019-07-11T16:12:34.345
+Unexpected IOException with stream: r
+
+# Created on 2019-07-11T16:12:34.347
+Unexpected IOException with stream: y
+
+# Created on 2019-07-11T16:12:34.348
+Unexpected IOException with stream: i
+
+# Created on 2019-07-11T16:12:34.349
+Unexpected IOException with stream: n
+
+# Created on 2019-07-11T16:12:34.350
+Unexpected IOException with stream: g
+
+# Created on 2019-07-11T16:12:34.352
+Unexpected IOException with stream: .
+
+# Created on 2019-07-11T16:12:34.353
+Unexpected IOException with stream: .
+
+# Created on 2019-07-11T16:12:34.354
+Unexpected IOException with stream: .
+
+# Created on 2019-07-11T16:12:34.355
+Unexpected IOException with stream: 
+
+# Created on 2019-07-11T16:12:34.359
+Unexpected IOException with stream: 
+
+
+# Created on 2019-07-11T16:12:38.269
+Unexpected IOException: 8,1,webassist.login.LoginTest,fetchMostRecentTestResult(webassist.login.LoginTest),null,org.openqa.selenium.WebDriverException: chrome not reachable\000A  (Session info: chrome=75.0.3770.100)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: '01HW808506'\002C ip: '10.151.254.37'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_141'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 75.0.3770.100\002C chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f...\002C userDataDir: C:\005CUsers\005C1436866\005CAppData\005CLo...}\002C goog:chromeOptions: {debuggerAddress: localhost:56521}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: e860953530db52f2e87ea81926b17078,null,org.openqa.selenium.WebDriverException: chrome not reachable\000A  (Session info: chrome=75.0.3770.100)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: '01HW808506'\002C ip: '10.151.254.37'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_141'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 75.0.3770.100\002C chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f...\002C userDataDir: C:\005CUsers\005C1436866\005CAppData\005CLo...}\002C goog:chromeOptions: {debuggerAddress: localhost:56521}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: e860953530db52f2e87ea81926b17078,LoginTest>BaseTest.fetchMostRecentTestResult:72 \00BB Runtime org.openqa.selenium....,java.lang.RuntimeException: \000Aorg.openqa.selenium.WebDriverException: chrome not reachable\000A  (Session info: chrome=75.0.3770.100)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: '01HW808506'\002C ip: '10.151.254.37'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_141'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 75.0.3770.100\002C chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f...\002C userDataDir: C:\005CUsers\005C1436866\005CAppData\005CLo...}\002C goog:chromeOptions: {debuggerAddress: localhost:56521}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: e860953530db52f2e87ea81926b17078\000ACaused by: org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=75.0.3770.100)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: '01HW808506'\002C ip: '10.151.254.37'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_141'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 75.0.3770.100\002C chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f...\002C userDataDir: C:\005CUsers\005C1436866\005CAppData\005CLo...}\002C goog:chromeOptions: {debuggerAddress: localhost:56521}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: e860953530db52f2e87ea81926b17078\000A
+
+
+# Created on 2019-07-11T16:12:38.272
+Unexpected IOException: 5,1,webassist.role.RoleTest,enterRole(webassist.role.RoleTest),webassist.role.RoleTest,null,null
+
+

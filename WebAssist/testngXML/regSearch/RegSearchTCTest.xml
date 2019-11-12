@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="REGSearch Execution Test for TC">
+	<test name="Reg Search TC">
+	<parameter name="testDescription" value="REG Search by TC Test" />
+		<parameter name="searchType" value="Test Centre" />
+		<parameter name="ID" value="10800" />
+		<parameter name="role" value="SUPER" />
+		<classes>
+			<class name="webassist.login.LoginTest">
+				<methods>
+					<include name="loginWebAssistCorrect" />
+				</methods>
+			</class>
+			<class name="webassist.role.RoleTest">
+			<methods>
+					<include name="enterRole" />
+				</methods>
+				</class>
+			<class name="webassist.regSearch.RegSearchTCTest">
+			</class>
+		</classes>
+	</test>
+</suite>

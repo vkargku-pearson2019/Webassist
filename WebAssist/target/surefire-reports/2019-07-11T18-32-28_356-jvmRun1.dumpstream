@@ -1,0 +1,18 @@
+# Created on 2019-07-11T18:32:40.121
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created on 2019-07-11T18:33:01.456
+Unexpected IOException with stream: Jul 11, 2019 6:33:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+
+# Created on 2019-07-11T18:33:09.807
+Unexpected IOException: 5,1,webassist.login.LoginTest,loginWebAssistCorrect(webassist.login.LoginTest),webassist.login.LoginTest,null,null
+
+

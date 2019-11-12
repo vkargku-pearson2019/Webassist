@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Execution Test for MATCH]">
+  <test thread-count="5" name="MATCH Test(failed)">
+    <parameter name="role" value="MATCH"/>
+    <parameter name="testDescription" value="Match by Role"/>
+    <classes>
+      <class name="webassist.match.MatchTest">
+        <methods>
+          <include name="beforeTestSetup"/>
+          <include name="fetchMostRecentTestResult"/>
+          <include name="MatchTest"/>
+          <include name="closeAll"/>
+          <include name="beforeSuiteSetup"/>
+        </methods>
+      </class> <!-- webassist.match.MatchTest -->
+    </classes>
+  </test> <!-- MATCH Test(failed) -->
+</suite> <!-- Failed suite [Execution Test for MATCH] -->

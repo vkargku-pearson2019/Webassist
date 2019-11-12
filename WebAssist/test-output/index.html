@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Execution_Test_for_MATCH">
+              <span class="suite-name border-failed">Execution Test for MATCH</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Execution_Test_for_MATCH">
+                    <span>D:\workspace\WebAssist\WebAssist\testngXML\match\matchTest.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Execution_Test_for_MATCH">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Execution_Test_for_MATCH">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Execution_Test_for_MATCH">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Execution_Test_for_MATCH">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Execution_Test_for_MATCH">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Execution_Test_for_MATCH">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Execution_Test_for_MATCH" class="hide-methods failed suite-Execution_Test_for_MATCH"> (hide)</a> <!-- hide-methods failed suite-Execution_Test_for_MATCH -->
+                      <a href="#" panel-name="suite-Execution_Test_for_MATCH" class="show-methods failed suite-Execution_Test_for_MATCH"> (show)</a> <!-- show-methods failed suite-Execution_Test_for_MATCH -->
+                    </span>
+                    <div class="method-list-content failed suite-Execution_Test_for_MATCH">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Execution_Test_for_MATCH" title="webassist.match.MatchTest" hash-for-method="MatchTest">MatchTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Execution_Test_for_MATCH -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Execution_Test_for_MATCH" class="hide-methods passed suite-Execution_Test_for_MATCH"> (hide)</a> <!-- hide-methods passed suite-Execution_Test_for_MATCH -->
+                      <a href="#" panel-name="suite-Execution_Test_for_MATCH" class="show-methods passed suite-Execution_Test_for_MATCH"> (show)</a> <!-- show-methods passed suite-Execution_Test_for_MATCH -->
+                    </span>
+                    <div class="method-list-content passed suite-Execution_Test_for_MATCH">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Execution_Test_for_MATCH" title="webassist.role.RoleTest" hash-for-method="enterRole(MATCH)">enterRole(MATCH)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Execution_Test_for_MATCH" title="webassist.login.LoginTest" hash-for-method="loginWebAssistCorrect">loginWebAssistCorrect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Execution_Test_for_MATCH -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Execution_Test_for_MATCH" class="panel Execution_Test_for_MATCH">
+          <div class="suite-Execution_Test_for_MATCH-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">webassist.match.MatchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="MatchTest">
+                  </a> <!-- MatchTest -->
+                  <span class="method-name">MatchTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at webassist.applicationflow.match.Match.ChangeRoleToSuper(Match.java:160)
+	at webassist.applicationflow.match.Match.matchTest(Match.java:73)
+	at webassist.match.MatchTest.MatchTest(MatchTest.java:16)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Match the Possible match from the List)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Execution_Test_for_MATCH-class-failed -->
+          <div class="suite-Execution_Test_for_MATCH-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">webassist.role.RoleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterRole(MATCH)">
+                  </a> <!-- enterRole(MATCH) -->
+                  <span class="method-name">enterRole</span>
+                  <span class="parameters">(MATCH)</span>
+                  <em>
+(Select desired Role)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Execution_Test_for_MATCH-class-passed -->
+          <div class="suite-Execution_Test_for_MATCH-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">webassist.login.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWebAssistCorrect">
+                  </a> <!-- loginWebAssistCorrect -->
+                  <span class="method-name">loginWebAssistCorrect</span>
+                  <em>
+(Login to WebAssist with valid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Execution_Test_for_MATCH-class-passed -->
+        </div> <!-- panel Execution_Test_for_MATCH -->
+        <div panel-name="test-xml-Execution_Test_for_MATCH" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\workspace\WebAssist\WebAssist\testngXML\match\matchTest.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Execution Test for MATCH&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;MATCH Test&quot;&gt;
+    &lt;parameter name=&quot;role&quot; value=&quot;MATCH&quot;/&gt;
+    &lt;parameter name=&quot;testDescription&quot; value=&quot;Match by Role&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;webassist.login.LoginTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;loginWebAssistCorrect&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- webassist.login.LoginTest --&gt;
+      &lt;class name=&quot;webassist.role.RoleTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;enterRole&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- webassist.role.RoleTest --&gt;
+      &lt;class name=&quot;webassist.match.MatchTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MATCH Test --&gt;
+&lt;/suite&gt; &lt;!-- Execution Test for MATCH --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Execution_Test_for_MATCH" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Execution Test for MATCH</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">MATCH Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Execution_Test_for_MATCH" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Execution Test for MATCH</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Execution_Test_for_MATCH" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Execution Test for MATCH</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Execution_Test_for_MATCH');
+function tableData_Execution_Test_for_MATCH() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'MatchTest')
+data.setCell(0, 2, 'webassist.match.MatchTest')
+data.setCell(0, 3, 46561);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginWebAssistCorrect')
+data.setCell(1, 2, 'webassist.login.LoginTest')
+data.setCell(1, 3, 15327);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'enterRole')
+data.setCell(2, 2, 'webassist.role.RoleTest')
+data.setCell(2, 3, 7121);
+window.suiteTableData['Execution_Test_for_MATCH']= { tableData: data, tableDiv: 'times-div-Execution_Test_for_MATCH'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Execution_Test_for_MATCH">
+              </div> <!-- times-div-Execution_Test_for_MATCH -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Execution_Test_for_MATCH" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Execution Test for MATCH</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Execution_Test_for_MATCH" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">9 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">webassist.role.RoleTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTestSetup</span>
+                <br/>
+                <span class="ignored-method-name">enterRoleName</span>
+                <br/>
+                <span class="ignored-method-name">closeAll</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuiteSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">webassist.login.LoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">loginWebAssistIncorrectPassword</span>
+                <br/>
+                <span class="ignored-method-name">loginWebAssistIncorrectUserName</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">webassist.match.MatchTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTestSetup</span>
+                <br/>
+                <span class="ignored-method-name">closeAll</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuiteSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Execution_Test_for_MATCH" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">webassist.login.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuiteSetup(org.testng.TestRunner@415e0bcb)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTestSetup(org.testng.TestRunner@415e0bcb)</span>
+                <span class="method-start">565 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">loginWebAssistCorrect</span>
+                <span class="method-start">8377 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">fetchMostRecentTestResult([TestResult name=loginWebAssistCorrect status=SUCCESS method=LoginTest.loginWebAssistCorrect()[pri:0...)</span>
+                <span class="method-start">23705 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">webassist.role.RoleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">enterRole(MATCH)</span>
+                <span class="method-start">23707 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">fetchMostRecentTestResult([TestResult name=enterRole status=SUCCESS method=RoleTest.enterRole(java.lang.String)[pri:0, instanc...)</span>
+                <span class="method-start">30830 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">webassist.match.MatchTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">MatchTest</span>
+                <span class="method-start">30831 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">fetchMostRecentTestResult([TestResult name=MatchTest status=FAILURE method=MatchTest.MatchTest()[pri:0, instance:webassist.mat...)</span>
+                <span class="method-start">77405 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">webassist.login.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">closeAll</span>
+                <span class="method-start">81011 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

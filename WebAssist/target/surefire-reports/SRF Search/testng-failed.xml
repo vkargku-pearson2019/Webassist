@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [SRF Search]">
+  <test thread-count="5" verbose="0" name="SRF Search Test(failed)">
+    <parameter name="role" value="SUPER"/>
+    <parameter name="centreCode" value="10800"/>
+    <parameter name="adminDate" value="082018"/>
+    <parameter name="ansSheetField" value="Test Date"/>
+    <parameter name="ansSheetFieldValue" value="08252018"/>
+    <parameter name="uinNumber" value="00000056693421201807"/>
+    <classes>
+      <class name="webassist.srf.SRFTest">
+        <methods>
+          <include name="SRFSearchTestNoDetails"/>
+          <include name="SRFSearchTestInvalidTC"/>
+          <include name="SRFSearchTestCorrect"/>
+          <include name="SRFSearchTestDeleteComment"/>
+          <include name="closeAll"/>
+          <include name="beforeSuiteSetup"/>
+          <include name="SRFSearchTestUpdateComment"/>
+          <include name="SRFSearchTestWithoutUIN"/>
+          <include name="beforeTestSetup"/>
+          <include name="fetchMostRecentTestResult"/>
+          <include name="SRFSearchTestClearDetails" invocation-numbers="0"/>
+          <include name="SRFSearchTestInvalidAdminDate"/>
+          <include name="SRFSearchTestInvalidUIN"/>
+          <include name="SRFSearchTestPostComment"/>
+        </methods>
+      </class> <!-- webassist.srf.SRFTest -->
+    </classes>
+  </test> <!-- SRF Search Test(failed) -->
+</suite> <!-- Failed suite [SRF Search] -->

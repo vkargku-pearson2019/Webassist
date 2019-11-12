@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [ASSearch Execution Test for UIN]">
+  <test thread-count="5" verbose="0" name="AS Search UIN(failed)">
+    <parameter name="role" value="SUPER"/>
+    <parameter name="testDescription" value="AS Search by UIN Test"/>
+    <classes>
+      <class name="webassist.asSearch.ASSearchUINTest">
+        <methods>
+          <include name="ASSearchTestMethodUINInvalid"/>
+          <include name="ASSearchTestMethodUINPageResults"/>
+          <include name="ASSearchTestMethodUINClear"/>
+          <include name="ASSearchTestMethodUINCorrect"/>
+          <include name="ASSearchTestMethodUINOutputValidation"/>
+          <include name="beforeTestSetup"/>
+          <include name="fetchMostRecentTestResult"/>
+          <include name="closeAll"/>
+          <include name="beforeSuiteSetup"/>
+        </methods>
+      </class> <!-- webassist.asSearch.ASSearchUINTest -->
+    </classes>
+  </test> <!-- AS Search UIN(failed) -->
+</suite> <!-- Failed suite [ASSearch Execution Test for UIN] -->

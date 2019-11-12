@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [REGSearch Execution Test for TC]">
+  <test thread-count="5" verbose="0" name="Reg Search TC(failed)">
+    <parameter name="role" value="SUPER"/>
+    <parameter name="searchType" value="Test Centre"/>
+    <parameter name="ID" value="10800"/>
+    <parameter name="testDescription" value="REG Search by TC Test"/>
+    <classes>
+      <class name="webassist.login.LoginTest">
+        <methods>
+          <include name="loginWebAssistCorrect"/>
+          <include name="beforeTestSetup"/>
+          <include name="fetchMostRecentTestResult"/>
+          <include name="closeAll"/>
+          <include name="beforeSuiteSetup"/>
+        </methods>
+      </class> <!-- webassist.login.LoginTest -->
+      <class name="webassist.regSearch.RegSearchTCTest">
+        <methods>
+          <include name="RegSearchTestMethodTCCorrect"/>
+          <include name="RegSearchTestMethodTCDropdown"/>
+          <include name="RegSearchTestMethodTCClear"/>
+          <include name="beforeTestSetup"/>
+          <include name="fetchMostRecentTestResult"/>
+          <include name="RegSearchTestMethodTCID"/>
+          <include name="closeAll"/>
+          <include name="beforeSuiteSetup"/>
+        </methods>
+      </class> <!-- webassist.regSearch.RegSearchTCTest -->
+      <class name="webassist.role.RoleTest">
+        <methods>
+          <include name="beforeTestSetup"/>
+          <include name="fetchMostRecentTestResult"/>
+          <include name="enterRole"/>
+          <include name="closeAll"/>
+          <include name="beforeSuiteSetup"/>
+        </methods>
+      </class> <!-- webassist.role.RoleTest -->
+    </classes>
+  </test> <!-- Reg Search TC(failed) -->
+</suite> <!-- Failed suite [REGSearch Execution Test for TC] -->

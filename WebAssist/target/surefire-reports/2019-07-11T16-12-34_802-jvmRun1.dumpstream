@@ -1,0 +1,459 @@
+# Created on 2019-07-11T16:12:59.743
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created on 2019-07-11T16:13:05.646
+Unexpected IOException with stream: [
+
+# Created on 2019-07-11T16:13:05.651
+Unexpected IOException with stream: 1
+
+# Created on 2019-07-11T16:13:05.654
+Unexpected IOException with stream: 5
+
+# Created on 2019-07-11T16:13:05.658
+Unexpected IOException with stream: 6
+
+# Created on 2019-07-11T16:13:05.662
+Unexpected IOException with stream: 2
+
+# Created on 2019-07-11T16:13:05.666
+Unexpected IOException with stream: 8
+
+# Created on 2019-07-11T16:13:05.669
+Unexpected IOException with stream: 4
+
+# Created on 2019-07-11T16:13:05.673
+Unexpected IOException with stream: 1
+
+# Created on 2019-07-11T16:13:05.677
+Unexpected IOException with stream: 7
+
+# Created on 2019-07-11T16:13:05.679
+Unexpected IOException with stream: 8
+
+# Created on 2019-07-11T16:13:05.681
+Unexpected IOException with stream: 5
+
+# Created on 2019-07-11T16:13:05.684
+Unexpected IOException with stream: .
+
+# Created on 2019-07-11T16:13:05.686
+Unexpected IOException with stream: 6
+
+# Created on 2019-07-11T16:13:05.688
+Unexpected IOException with stream: 3
+
+# Created on 2019-07-11T16:13:05.691
+Unexpected IOException with stream: 9
+
+# Created on 2019-07-11T16:13:05.693
+Unexpected IOException with stream: ]
+
+# Created on 2019-07-11T16:13:05.695
+Unexpected IOException with stream: [
+
+# Created on 2019-07-11T16:13:05.698
+Unexpected IOException with stream: W
+
+# Created on 2019-07-11T16:13:05.700
+Unexpected IOException with stream: A
+
+# Created on 2019-07-11T16:13:05.702
+Unexpected IOException with stream: R
+
+# Created on 2019-07-11T16:13:05.704
+Unexpected IOException with stream: N
+
+# Created on 2019-07-11T16:13:05.707
+Unexpected IOException with stream: I
+
+# Created on 2019-07-11T16:13:05.709
+Unexpected IOException with stream: N
+
+# Created on 2019-07-11T16:13:05.711
+Unexpected IOException with stream: G
+
+# Created on 2019-07-11T16:13:05.713
+Unexpected IOException with stream: ]
+
+# Created on 2019-07-11T16:13:05.716
+Unexpected IOException with stream: :
+
+# Created on 2019-07-11T16:13:05.718
+Unexpected IOException with stream:  
+
+# Created on 2019-07-11T16:13:05.720
+Unexpected IOException with stream: T
+
+# Created on 2019-07-11T16:13:05.723
+Unexpected IOException with stream: i
+
+# Created on 2019-07-11T16:13:05.725
+Unexpected IOException with stream: m
+
+# Created on 2019-07-11T16:13:05.727
+Unexpected IOException with stream: e
+
+# Created on 2019-07-11T16:13:05.730
+Unexpected IOException with stream: d
+
+# Created on 2019-07-11T16:13:05.732
+Unexpected IOException with stream:  
+
+# Created on 2019-07-11T16:13:05.734
+Unexpected IOException with stream: o
+
+# Created on 2019-07-11T16:13:05.736
+Unexpected IOException with stream: u
+
+# Created on 2019-07-11T16:13:05.738
+Unexpected IOException with stream: t
+
+# Created on 2019-07-11T16:13:05.739
+Unexpected IOException with stream:  
+
+# Created on 2019-07-11T16:13:05.741
+Unexpected IOException with stream: c
+
+# Created on 2019-07-11T16:13:05.743
+Unexpected IOException with stream: o
+
+# Created on 2019-07-11T16:13:05.744
+Unexpected IOException with stream: n
+
+# Created on 2019-07-11T16:13:05.746
+Unexpected IOException with stream: n
+
+# Created on 2019-07-11T16:13:05.748
+Unexpected IOException with stream: e
+
+# Created on 2019-07-11T16:13:05.749
+Unexpected IOException with stream: c
+
+# Created on 2019-07-11T16:13:05.751
+Unexpected IOException with stream: t
+
+# Created on 2019-07-11T16:13:05.752
+Unexpected IOException with stream: i
+
+# Created on 2019-07-11T16:13:05.754
+Unexpected IOException with stream: n
+
+# Created on 2019-07-11T16:13:05.755
+Unexpected IOException with stream: g
+
+# Created on 2019-07-11T16:13:05.757
+Unexpected IOException with stream:  
+
+# Created on 2019-07-11T16:13:05.758
+Unexpected IOException with stream: t
+
+# Created on 2019-07-11T16:13:05.760
+Unexpected IOException with stream: o
+
+# Created on 2019-07-11T16:13:05.761
+Unexpected IOException with stream:  
+
+# Created on 2019-07-11T16:13:05.763
+Unexpected IOException with stream: C
+
+# Created on 2019-07-11T16:13:05.764
+Unexpected IOException with stream: h
+
+# Created on 2019-07-11T16:13:05.765
+Unexpected IOException with stream: r
+
+# Created on 2019-07-11T16:13:05.767
+Unexpected IOException with stream: o
+
+# Created on 2019-07-11T16:13:05.768
+Unexpected IOException with stream: m
+
+# Created on 2019-07-11T16:13:05.769
+Unexpected IOException with stream: e
+
+# Created on 2019-07-11T16:13:05.770
+Unexpected IOException with stream: ,
+
+# Created on 2019-07-11T16:13:05.771
+Unexpected IOException with stream:  
+
+# Created on 2019-07-11T16:13:05.772
+Unexpected IOException with stream: r
+
+# Created on 2019-07-11T16:13:05.774
+Unexpected IOException with stream: e
+
+# Created on 2019-07-11T16:13:05.775
+Unexpected IOException with stream: t
+
+# Created on 2019-07-11T16:13:05.776
+Unexpected IOException with stream: r
+
+# Created on 2019-07-11T16:13:05.777
+Unexpected IOException with stream: y
+
+# Created on 2019-07-11T16:13:05.778
+Unexpected IOException with stream: i
+
+# Created on 2019-07-11T16:13:05.779
+Unexpected IOException with stream: n
+
+# Created on 2019-07-11T16:13:05.780
+Unexpected IOException with stream: g
+
+# Created on 2019-07-11T16:13:05.781
+Unexpected IOException with stream: .
+
+# Created on 2019-07-11T16:13:05.782
+Unexpected IOException with stream: .
+
+# Created on 2019-07-11T16:13:05.783
+Unexpected IOException with stream: .
+
+# Created on 2019-07-11T16:13:05.784
+Unexpected IOException with stream: 
+
+# Created on 2019-07-11T16:13:05.785
+Unexpected IOException with stream: 
+
+
+# Created on 2019-07-11T16:13:09.668
+Unexpected IOException: 8,1,webassist.login.LoginTest,loginWebAssistCorrect(webassist.login.LoginTest),null,chrome not reachable\000A  (Session info: chrome=75.0.3770.100)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: '01HW808506'\002C ip: '10.151.254.37'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_141'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 75.0.3770.100\002C chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f...\002C userDataDir: C:\005CUsers\005C1436866\005CAppData\005CLo...}\002C goog:chromeOptions: {debuggerAddress: localhost:56604}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: e3e8f2da84ea33b8bacc948c5231e0e6\000A*** Element info: {Using=xpath\002C value=//input[@placeholder='Username']},null,chrome not reachable\000A  (Session info: chrome=75.0.3770.100)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: '01HW808506'\002C ip: '10.151.254.37'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_141'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 75.0.3770.100\002C chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f...\002C userDataDir: C:\005CUsers\005C1436866\005CAppData\005CLo...}\002C goog:chromeOptions: {debuggerAddress: localhost:56604}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: e3e8f2da84ea33b8bacc948c5231e0e6\000A*** Element info: {Using=xpath\002C value=//input[@placeholder='Username']},LoginTest.loginWebAssistCorrect:43 \00BB WebDriver chrome not reachable\000A  (Session...,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=75.0.3770.100)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: '01HW808506'\002C ip: '10.151.254.37'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_141'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 75.0.3770.100\002C chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f...\002C userDataDir: C:\005CUsers\005C1436866\005CAppData\005CLo...}\002C goog:chromeOptions: {debuggerAddress: localhost:56604}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: e3e8f2da84ea33b8bacc948c5231e0e6\000A*** Element info: {Using=xpath\002C value=//input[@placeholder='Username']}\000A\0009at webassist.login.LoginTest.loginWebAssistCorrect(LoginTest.java:43)\000A
+
+
+# Created on 2019-07-11T16:13:09.671
+Unexpected IOException with stream: Login to WebAssist with valid credentials : FAIL 
+
+
+# Created on 2019-07-11T16:13:13.710
+Unexpected IOException: 8,1,webassist.login.LoginTest,fetchMostRecentTestResult(webassist.login.LoginTest),null,org.openqa.selenium.WebDriverException: chrome not reachable\000A  (Session info: chrome=75.0.3770.100)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: '01HW808506'\002C ip: '10.151.254.37'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_141'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 75.0.3770.100\002C chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f...\002C userDataDir: C:\005CUsers\005C1436866\005CAppData\005CLo...}\002C goog:chromeOptions: {debuggerAddress: localhost:56604}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: e3e8f2da84ea33b8bacc948c5231e0e6,null,org.openqa.selenium.WebDriverException: chrome not reachable\000A  (Session info: chrome=75.0.3770.100)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: '01HW808506'\002C ip: '10.151.254.37'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_141'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 75.0.3770.100\002C chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f...\002C userDataDir: C:\005CUsers\005C1436866\005CAppData\005CLo...}\002C goog:chromeOptions: {debuggerAddress: localhost:56604}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: e3e8f2da84ea33b8bacc948c5231e0e6,LoginTest>BaseTest.fetchMostRecentTestResult:72 \00BB Runtime org.openqa.selenium....,java.lang.RuntimeException: \000Aorg.openqa.selenium.WebDriverException: chrome not reachable\000A  (Session info: chrome=75.0.3770.100)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: '01HW808506'\002C ip: '10.151.254.37'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_141'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 75.0.3770.100\002C chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f...\002C userDataDir: C:\005CUsers\005C1436866\005CAppData\005CLo...}\002C goog:chromeOptions: {debuggerAddress: localhost:56604}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: e3e8f2da84ea33b8bacc948c5231e0e6\000ACaused by: org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=75.0.3770.100)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: '01HW808506'\002C ip: '10.151.254.37'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_141'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 75.0.3770.100\002C chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f...\002C userDataDir: C:\005CUsers\005C1436866\005CAppData\005CLo...}\002C goog:chromeOptions: {debuggerAddress: localhost:56604}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: e3e8f2da84ea33b8bacc948c5231e0e6\000A
+
+
+# Created on 2019-07-11T16:13:13.715
+Unexpected IOException: 5,1,webassist.role.RoleTest,enterRole(webassist.role.RoleTest),webassist.role.RoleTest,null,null
+
+
+# Created on 2019-07-11T16:13:15.724
+Unexpected IOException with stream: [
+
+# Created on 2019-07-11T16:13:15.728
+Unexpected IOException with stream: 1
+
+# Created on 2019-07-11T16:13:15.732
+Unexpected IOException with stream: 5
+
+# Created on 2019-07-11T16:13:15.736
+Unexpected IOException with stream: 6
+
+# Created on 2019-07-11T16:13:15.739
+Unexpected IOException with stream: 2
+
+# Created on 2019-07-11T16:13:15.742
+Unexpected IOException with stream: 8
+
+# Created on 2019-07-11T16:13:15.746
+Unexpected IOException with stream: 4
+
+# Created on 2019-07-11T16:13:15.749
+Unexpected IOException with stream: 1
+
+# Created on 2019-07-11T16:13:15.752
+Unexpected IOException with stream: 7
+
+# Created on 2019-07-11T16:13:15.756
+Unexpected IOException with stream: 9
+
+# Created on 2019-07-11T16:13:15.758
+Unexpected IOException with stream: 5
+
+# Created on 2019-07-11T16:13:15.759
+Unexpected IOException with stream: .
+
+# Created on 2019-07-11T16:13:15.761
+Unexpected IOException with stream: 7
+
+# Created on 2019-07-11T16:13:15.763
+Unexpected IOException with stream: 1
+
+# Created on 2019-07-11T16:13:15.765
+Unexpected IOException with stream: 8
+
+# Created on 2019-07-11T16:13:15.767
+Unexpected IOException with stream: ]
+
+# Created on 2019-07-11T16:13:15.769
+Unexpected IOException with stream: [
+
+# Created on 2019-07-11T16:13:15.770
+Unexpected IOException with stream: W
+
+# Created on 2019-07-11T16:13:15.772
+Unexpected IOException with stream: A
+
+# Created on 2019-07-11T16:13:15.774
+Unexpected IOException with stream: R
+
+# Created on 2019-07-11T16:13:15.776
+Unexpected IOException with stream: N
+
+# Created on 2019-07-11T16:13:15.777
+Unexpected IOException with stream: I
+
+# Created on 2019-07-11T16:13:15.779
+Unexpected IOException with stream: N
+
+# Created on 2019-07-11T16:13:15.780
+Unexpected IOException with stream: G
+
+# Created on 2019-07-11T16:13:15.782
+Unexpected IOException with stream: ]
+
+# Created on 2019-07-11T16:13:15.784
+Unexpected IOException with stream: :
+
+# Created on 2019-07-11T16:13:15.785
+Unexpected IOException with stream:  
+
+# Created on 2019-07-11T16:13:15.787
+Unexpected IOException with stream: T
+
+# Created on 2019-07-11T16:13:15.788
+Unexpected IOException with stream: i
+
+# Created on 2019-07-11T16:13:15.789
+Unexpected IOException with stream: m
+
+# Created on 2019-07-11T16:13:15.790
+Unexpected IOException with stream: e
+
+# Created on 2019-07-11T16:13:15.792
+Unexpected IOException with stream: d
+
+# Created on 2019-07-11T16:13:15.793
+Unexpected IOException with stream:  
+
+# Created on 2019-07-11T16:13:15.794
+Unexpected IOException with stream: o
+
+# Created on 2019-07-11T16:13:15.795
+Unexpected IOException with stream: u
+
+# Created on 2019-07-11T16:13:15.796
+Unexpected IOException with stream: t
+
+# Created on 2019-07-11T16:13:15.797
+Unexpected IOException with stream:  
+
+# Created on 2019-07-11T16:13:15.798
+Unexpected IOException with stream: c
+
+# Created on 2019-07-11T16:13:15.799
+Unexpected IOException with stream: o
+
+# Created on 2019-07-11T16:13:15.801
+Unexpected IOException with stream: n
+
+# Created on 2019-07-11T16:13:15.802
+Unexpected IOException with stream: n
+
+# Created on 2019-07-11T16:13:15.804
+Unexpected IOException with stream: e
+
+# Created on 2019-07-11T16:13:15.805
+Unexpected IOException with stream: c
+
+# Created on 2019-07-11T16:13:15.806
+Unexpected IOException with stream: t
+
+# Created on 2019-07-11T16:13:15.808
+Unexpected IOException with stream: i
+
+# Created on 2019-07-11T16:13:15.809
+Unexpected IOException with stream: n
+
+# Created on 2019-07-11T16:13:15.810
+Unexpected IOException with stream: g
+
+# Created on 2019-07-11T16:13:15.812
+Unexpected IOException with stream:  
+
+# Created on 2019-07-11T16:13:15.813
+Unexpected IOException with stream: t
+
+# Created on 2019-07-11T16:13:15.815
+Unexpected IOException with stream: o
+
+# Created on 2019-07-11T16:13:15.816
+Unexpected IOException with stream:  
+
+# Created on 2019-07-11T16:13:15.817
+Unexpected IOException with stream: C
+
+# Created on 2019-07-11T16:13:15.819
+Unexpected IOException with stream: h
+
+# Created on 2019-07-11T16:13:15.820
+Unexpected IOException with stream: r
+
+# Created on 2019-07-11T16:13:15.821
+Unexpected IOException with stream: o
+
+# Created on 2019-07-11T16:13:15.822
+Unexpected IOException with stream: m
+
+# Created on 2019-07-11T16:13:15.824
+Unexpected IOException with stream: e
+
+# Created on 2019-07-11T16:13:15.825
+Unexpected IOException with stream: ,
+
+# Created on 2019-07-11T16:13:15.826
+Unexpected IOException with stream:  
+
+# Created on 2019-07-11T16:13:15.827
+Unexpected IOException with stream: r
+
+# Created on 2019-07-11T16:13:15.828
+Unexpected IOException with stream: e
+
+# Created on 2019-07-11T16:13:15.829
+Unexpected IOException with stream: t
+
+# Created on 2019-07-11T16:13:15.830
+Unexpected IOException with stream: r
+
+# Created on 2019-07-11T16:13:15.831
+Unexpected IOException with stream: y
+
+# Created on 2019-07-11T16:13:15.832
+Unexpected IOException with stream: i
+
+# Created on 2019-07-11T16:13:15.833
+Unexpected IOException with stream: n
+
+# Created on 2019-07-11T16:13:15.835
+Unexpected IOException with stream: g
+
+# Created on 2019-07-11T16:13:15.836
+Unexpected IOException with stream: .
+
+# Created on 2019-07-11T16:13:15.837
+Unexpected IOException with stream: .
+
+# Created on 2019-07-11T16:13:15.839
+Unexpected IOException with stream: .
+
+# Created on 2019-07-11T16:13:15.840
+Unexpected IOException with stream: 
+
+# Created on 2019-07-11T16:13:15.841
+Unexpected IOException with stream: 
+
+

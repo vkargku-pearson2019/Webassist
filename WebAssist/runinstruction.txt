@@ -1,0 +1,15 @@
+mvn test -Dsurefire.suiteXmlFiles=testngXML/login/LoginTest.xml
+mvn test -Dsurefire.suiteXmlFiles=testngXML/role/RoleTest.xml
+mvn test -Dsurefire.suiteXmlFiles=testngXML/asSearch/ASSearchUINTest.xml
+mvn test -Dsurefire.suiteXmlFiles=testngXML/asSearch/ASSearchPASTest.xml
+mvn test -Dsurefire.suiteXmlFiles=testngXML/asSearch/ASSearchTCTest.xml
+mvn test -Dsurefire.suiteXmlFiles=testngXML/asSearch/ASSearchBatchTest.xml
+mvn test -Dsurefire.suiteXmlFiles=testngXML/regSearch/RegSearchRegTest.xml
+mvn test -Dsurefire.suiteXmlFiles=testngXML/regSearch/RegSearchAdminTest.xml
+mvn test -Dsurefire.suiteXmlFiles=testngXML/regSearch/RegSearchCBStudentTest.xml
+mvn test -Dsurefire.suiteXmlFiles=testngXML/regSearch/RegSearchNameTest.xml
+mvn test -Dsurefire.suiteXmlFiles=testngXML/regSearch/RegSearchSSDTest.xml
+mvn test -Dsurefire.suiteXmlFiles=testngXML/regSearch/RegSearchTCTest.xml
+mvn test -Dsurefire.suiteXmlFiles=testngXML/srf/SRFTest.xml
+mvn test -Dsurefire.suiteXmlFiles=testngXML/admin/AdminTest.xml
+mvn test -Dsurefire.suiteXmlFiles=testngXML/match/MatchTest.xml

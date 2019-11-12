@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ASSearch Execution Test for PAS">
+
+	<test name="AS Search by PAS">
+	<parameter name="testDescription" value="AS Search by PAS Test" />
+		<parameter name="searchType" value="Search By PAS" />
+		<parameter name="ID" value="594000007" />
+		<parameter name="ansSheetField" value="AS Reg #" />
+		<parameter name="ansSheetFieldValue" value="1000000001" />
+		<parameter name="role" value="SUPER" />
+		<classes>
+			<class name="webassist.login.LoginTest">
+				<methods>
+					<include name="loginWebAssistCorrect" />
+				</methods>
+			</class>
+			<class name="webassist.role.RoleTest" >
+			<methods>
+					<include name="enterRole" />
+				</methods>
+				</class>
+			<class name="webassist.asSearch.ASSearchPASTest">
+			</class>
+		</classes>
+	</test>
+</suite>

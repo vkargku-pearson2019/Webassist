@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ASSearch Execution Test for UIN">
+
+	<test name="AS Search UIN">
+	<parameter name="testDescription" value="AS Search by UIN Test" />
+		<parameter name="role" value="SUPER" />
+		<classes>
+			<class name="webassist.login.LoginTest">
+				<methods>
+					<include name="loginWebAssistCorrect" />
+				</methods>
+			</class>
+			<class name="webassist.role.RoleTest" >
+			<methods>
+					<include name="enterRole" />
+				</methods>
+				</class>
+			<class name="webassist.asSearch.ASSearchUINTest">
+			</class>
+		</classes>
+	</test>
+</suite>

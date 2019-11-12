@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [REGSearch Execution Test for CB Student]">
+  <test thread-count="5" verbose="0" name="Reg Search CB Student(failed)">
+    <parameter name="role" value="SUPER"/>
+    <parameter name="ID" value="0000000008"/>
+    <parameter name="testDescription" value="REG Search by CB Student Test"/>
+    <classes>
+      <class name="webassist.login.LoginTest">
+        <methods>
+          <include name="loginWebAssistCorrect"/>
+          <include name="beforeTestSetup"/>
+          <include name="fetchMostRecentTestResult"/>
+          <include name="closeAll"/>
+          <include name="beforeSuiteSetup"/>
+        </methods>
+      </class> <!-- webassist.login.LoginTest -->
+      <class name="webassist.regSearch.RegSearchCBStudentTest">
+        <methods>
+          <include name="RegSearchTestMethodCBStudentCorrect"/>
+          <include name="RegSearchTestMethodCBStudentInvalidLength"/>
+          <include name="beforeTestSetup"/>
+          <include name="fetchMostRecentTestResult"/>
+          <include name="RegSearchTestMethodCBStudentInvalid"/>
+          <include name="closeAll"/>
+          <include name="beforeSuiteSetup"/>
+          <include name="RegSearchTestMethodCBStudentClear" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- webassist.regSearch.RegSearchCBStudentTest -->
+      <class name="webassist.role.RoleTest">
+        <methods>
+          <include name="beforeTestSetup"/>
+          <include name="fetchMostRecentTestResult"/>
+          <include name="enterRole" invocation-numbers="0"/>
+          <include name="closeAll"/>
+          <include name="beforeSuiteSetup"/>
+        </methods>
+      </class> <!-- webassist.role.RoleTest -->
+    </classes>
+  </test> <!-- Reg Search CB Student(failed) -->
+</suite> <!-- Failed suite [REGSearch Execution Test for CB Student] -->

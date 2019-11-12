@@ -1,0 +1,22 @@
+# Created on 2019-07-11T13:29:56.902
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created on 2019-07-11T13:29:58.108
+Unexpected IOException with stream: Jul 11, 2019 1:29:58 PM org.openqa.selenium.remote.Augmenter extractRemoteWebDriver
+WARNING: Augmenter should be applied to the instances of @Augmentable classes or previously augmented instances only (instance class was: class org.openqa.selenium.chrome.ChromeDriver)
+
+
+# Created on 2019-07-11T13:29:58.748
+Unexpected IOException: 9,1,webassist.asSearch.ASSearchBatchTest,ASSearchTestMethodBatchOutputValidation(webassist.asSearch.ASSearchBatchTest),null,Method ASSearchBatchTest.ASSearchTestMethodBatchOutputValidation(java.lang.String\002C java.lang.String)[pri:0\002C instance:webassist.asSearch.ASSearchBatchTest@614c5515] depends on not successfully finished methods,null
+
+
+# Created on 2019-07-11T13:30:00.109
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

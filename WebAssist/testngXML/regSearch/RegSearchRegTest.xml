@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="REGSearch Execution Test for REG">
+
+	<test name="Reg Search REG">
+		<parameter name="testDescription" value="REG Search by REG Test" />
+		<parameter name="ID" value="1000000001" />
+		<parameter name="role" value="SUPER" />
+		<classes>
+			<class name="webassist.login.LoginTest">
+				<methods>
+					<include name="loginWebAssistCorrect" />
+				</methods>
+			</class>
+			<class name="webassist.role.RoleTest" >
+			<methods>
+					<include name="enterRole" />
+				</methods>
+				</class>
+			<class name="webassist.regSearch.RegSearchRegTest">
+			</class>
+		</classes>
+	</test>
+</suite>

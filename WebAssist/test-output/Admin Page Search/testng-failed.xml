@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Admin Page Search]">
+  <test thread-count="5" name="Admin Page Search Test(failed)">
+    <parameter name="role" value="ADMIN"/>
+    <parameter name="testDescription" value="Admin Page Username Search Test"/>
+    <parameter name="confViewStatus" value="N"/>
+    <parameter name="username" value="FITZTI"/>
+    <parameter name="roleStatus" value="Y"/>
+    <classes>
+      <class name="webassist.admin.AdminTest">
+        <methods>
+          <include name="AdminUsernameAddChangeUser" invocation-numbers="0"/>
+          <include name="beforeTestSetup"/>
+          <include name="fetchMostRecentTestResult"/>
+          <include name="AdminUsernameFilter"/>
+          <include name="closeAll"/>
+          <include name="AdminUsernameEditUser"/>
+          <include name="beforeSuiteSetup"/>
+        </methods>
+      </class> <!-- webassist.admin.AdminTest -->
+    </classes>
+  </test> <!-- Admin Page Search Test(failed) -->
+</suite> <!-- Failed suite [Admin Page Search] -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [REGSearch Execution Test for SSD]">
+  <test thread-count="5" verbose="0" name="Reg Search SSD(failed)">
+    <parameter name="role" value="SUPER"/>
+    <parameter name="ID" value="1000000001"/>
+    <parameter name="testDescription" value="REG Search by SSD Test"/>
+    <classes>
+      <class name="webassist.regSearch.RegSearchSSDTest">
+        <methods>
+          <include name="RegSearchTestMethodSSDClear"/>
+          <include name="RegSearchTestMethodSSDInvalid"/>
+          <include name="beforeTestSetup"/>
+          <include name="fetchMostRecentTestResult"/>
+          <include name="closeAll"/>
+          <include name="RegSearchTestMethodSSDCorrect" invocation-numbers="0"/>
+          <include name="beforeSuiteSetup"/>
+        </methods>
+      </class> <!-- webassist.regSearch.RegSearchSSDTest -->
+    </classes>
+  </test> <!-- Reg Search SSD(failed) -->
+</suite> <!-- Failed suite [REGSearch Execution Test for SSD] -->

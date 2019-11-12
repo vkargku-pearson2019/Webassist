@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SRF Search]">
+  <test thread-count="5" name="SRF Search Test(failed)">
+    <parameter name="role" value="SUPER"/>
+    <parameter name="centreCode" value="10800"/>
+    <parameter name="adminDate" value="082017"/>
+    <parameter name="ansSheetField" value="Test Date"/>
+    <parameter name="ansSheetFieldValue" value="08262017"/>
+    <parameter name="uinNumber" value="08201233653423201706"/>
+    <classes>
+      <class name="webassist.role.RoleTest">
+        <methods>
+          <include name="beforeTestSetup"/>
+          <include name="fetchMostRecentTestResult"/>
+          <include name="enterRole" invocation-numbers="0"/>
+          <include name="closeAll"/>
+          <include name="beforeSuiteSetup"/>
+        </methods>
+      </class> <!-- webassist.role.RoleTest -->
+      <class name="webassist.srf.SRFTest">
+        <methods>
+          <include name="SRFSearchTestUpdateComment"/>
+          <include name="SRFSearchTestCorrect" invocation-numbers="0"/>
+          <include name="beforeTestSetup"/>
+          <include name="fetchMostRecentTestResult"/>
+          <include name="closeAll"/>
+          <include name="SRFSearchTestPostComment"/>
+          <include name="beforeSuiteSetup"/>
+        </methods>
+      </class> <!-- webassist.srf.SRFTest -->
+      <class name="webassist.login.LoginTest">
+        <methods>
+          <include name="loginWebAssistCorrect"/>
+          <include name="beforeTestSetup"/>
+          <include name="fetchMostRecentTestResult"/>
+          <include name="closeAll"/>
+          <include name="beforeSuiteSetup"/>
+        </methods>
+      </class> <!-- webassist.login.LoginTest -->
+    </classes>
+  </test> <!-- SRF Search Test(failed) -->
+</suite> <!-- Failed suite [SRF Search] -->

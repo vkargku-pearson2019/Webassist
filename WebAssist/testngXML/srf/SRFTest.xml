@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SRF Search">
+	<test verbose="2" name="SRF Search Test">
+		<parameter name="role" value="SUPER"/>
+		<parameter name="adminDate" value="082018"/>
+		<parameter name="uinNumber" value="00000056693421201807"/>
+		<parameter name="centreCode" value="10800" />
+		<parameter name="ansSheetField" value="Test Date" />
+		<parameter name="ansSheetFieldValue" value="08252018" />
+		<classes>
+			<class name="webassist.login.LoginTest">
+				<methods>
+					<include name="loginWebAssistCorrect"/>
+				</methods>
+			</class>
+			<class name="webassist.role.RoleTest">
+			<methods>
+					<include name="enterRole" />
+				</methods>
+				</class>
+			<class name="webassist.srf.SRFTest"/>
+		</classes>
+	</test>
+</suite>

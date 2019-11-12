@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="9" total="23" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ASSearch Execution Test for UIN" duration-ms="130933" started-at="2019-07-11T13:19:30Z" finished-at="2019-07-11T13:21:40Z">
+    <groups>
+    </groups>
+    <test name="AS Search UIN" duration-ms="130933" started-at="2019-07-11T13:19:30Z" finished-at="2019-07-11T13:21:40Z">
+      <class name="webassist.asSearch.ASSearchUINTest">
+        <test-method status="PASS" signature="ASSearchTestMethodUINClear(java.lang.String, java.lang.String)[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12]" name="ASSearchTestMethodUINClear" duration-ms="40641" started-at="2019-07-11T13:20:22Z" description="AS SEARCH UIN to verify Clear Button is Working" data-provider="ASSearchInputUIN" finished-at="2019-07-11T13:21:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Search By UIN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[08201416773423201807]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ASSearchTestMethodUINClear -->
+        <test-method status="PASS" signature="fetchMostRecentTestResult(org.testng.ITestResult)[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12]" name="fetchMostRecentTestResult" is-config="true" duration-ms="0" started-at="2019-07-11T13:21:03Z" finished-at="2019-07-11T13:21:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ASSearchTestMethodUINClear status=SUCCESS method=ASSearchUINTest.ASSearchTestMethodUINClear(java.lang.String, java.lang.String)[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchMostRecentTestResult -->
+        <test-method name="ASSearchTestMethodUINInvalid" signature="ASSearchTestMethodUINInvalid(java.lang.String, java.lang.String)[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12]" status="PASS" duration-ms="14919" finished-at="2019-07-11T13:21:18Z" started-at="2019-07-11T13:21:03Z" depends-on-methods="webassist.asSearch.ASSearchUINTest.ASSearchTestMethodUINClear" data-provider="ASSearchInputUIN" description="AS SEARCH with Invalid UIN ">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Search By UIN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[08201416773423201807]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ASSearchTestMethodUINInvalid -->
+        <test-method status="PASS" signature="fetchMostRecentTestResult(org.testng.ITestResult)[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12]" name="fetchMostRecentTestResult" is-config="true" duration-ms="0" started-at="2019-07-11T13:21:18Z" finished-at="2019-07-11T13:21:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ASSearchTestMethodUINInvalid status=SUCCESS method=ASSearchUINTest.ASSearchTestMethodUINInvalid(java.lang.String, java.lang.String)[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchMostRecentTestResult -->
+        <test-method name="ASSearchTestMethodUINCorrect" signature="ASSearchTestMethodUINCorrect(java.lang.String, java.lang.String)[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12]" status="PASS" duration-ms="5018" finished-at="2019-07-11T13:21:23Z" started-at="2019-07-11T13:21:18Z" depends-on-methods="webassist.asSearch.ASSearchUINTest.ASSearchTestMethodUINInvalid" data-provider="ASSearchInputUIN" description="AS SEARCH with valid UIN ">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Search By UIN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[08201416773423201807]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ASSearchTestMethodUINCorrect -->
+        <test-method status="PASS" signature="fetchMostRecentTestResult(org.testng.ITestResult)[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12]" name="fetchMostRecentTestResult" is-config="true" duration-ms="0" started-at="2019-07-11T13:21:23Z" finished-at="2019-07-11T13:21:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ASSearchTestMethodUINCorrect status=SUCCESS method=ASSearchUINTest.ASSearchTestMethodUINCorrect(java.lang.String, java.lang.String)[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchMostRecentTestResult -->
+        <test-method name="ASSearchTestMethodUINOutputValidation" signature="ASSearchTestMethodUINOutputValidation(java.lang.String, java.lang.String)[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12]" status="PASS" duration-ms="15" finished-at="2019-07-11T13:21:23Z" started-at="2019-07-11T13:21:23Z" depends-on-methods="webassist.asSearch.ASSearchUINTest.ASSearchTestMethodUINCorrect" data-provider="ASSearchOutput" description="AS SEARCH UIN with All Valid Details and Validate Output Details">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UIN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[08201416773423201807]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ASSearchTestMethodUINOutputValidation -->
+        <test-method name="ASSearchTestMethodUINOutputValidation" signature="ASSearchTestMethodUINOutputValidation(java.lang.String, java.lang.String)[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12]" status="PASS" duration-ms="16" finished-at="2019-07-11T13:21:23Z" started-at="2019-07-11T13:21:23Z" depends-on-methods="webassist.asSearch.ASSearchUINTest.ASSearchTestMethodUINCorrect" data-provider="ASSearchOutput" description="AS SEARCH UIN with All Valid Details and Validate Output Details">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PAS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[593900028]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ASSearchTestMethodUINOutputValidation -->
+        <test-method status="PASS" signature="fetchMostRecentTestResult(org.testng.ITestResult)[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12]" name="fetchMostRecentTestResult" is-config="true" duration-ms="0" started-at="2019-07-11T13:21:23Z" finished-at="2019-07-11T13:21:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ASSearchTestMethodUINOutputValidation status=SUCCESS method=ASSearchUINTest.ASSearchTestMethodUINOutputValidation(java.lang.String, java.lang.String)[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchMostRecentTestResult -->
+        <test-method status="PASS" signature="fetchMostRecentTestResult(org.testng.ITestResult)[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12]" name="fetchMostRecentTestResult" is-config="true" duration-ms="0" started-at="2019-07-11T13:21:23Z" finished-at="2019-07-11T13:21:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ASSearchTestMethodUINOutputValidation status=SUCCESS method=ASSearchUINTest.ASSearchTestMethodUINOutputValidation(java.lang.String, java.lang.String)[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchMostRecentTestResult -->
+        <test-method name="ASSearchTestMethodUINOutputValidation" signature="ASSearchTestMethodUINOutputValidation(java.lang.String, java.lang.String)[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12]" status="PASS" duration-ms="15" finished-at="2019-07-11T13:21:23Z" started-at="2019-07-11T13:21:23Z" depends-on-methods="webassist.asSearch.ASSearchUINTest.ASSearchTestMethodUINCorrect" data-provider="ASSearchOutput" description="AS SEARCH UIN with All Valid Details and Validate Output Details">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SRF Test Centre/School]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10800]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ASSearchTestMethodUINOutputValidation -->
+        <test-method status="PASS" signature="fetchMostRecentTestResult(org.testng.ITestResult)[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12]" name="fetchMostRecentTestResult" is-config="true" duration-ms="0" started-at="2019-07-11T13:21:23Z" finished-at="2019-07-11T13:21:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ASSearchTestMethodUINOutputValidation status=SUCCESS method=ASSearchUINTest.ASSearchTestMethodUINOutputValidation(java.lang.String, java.lang.String)[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchMostRecentTestResult -->
+        <test-method name="ASSearchTestMethodUINOutputValidation" signature="ASSearchTestMethodUINOutputValidation(java.lang.String, java.lang.String)[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12]" status="PASS" duration-ms="16" finished-at="2019-07-11T13:21:23Z" started-at="2019-07-11T13:21:23Z" depends-on-methods="webassist.asSearch.ASSearchUINTest.ASSearchTestMethodUINCorrect" data-provider="ASSearchOutput" description="AS SEARCH UIN with All Valid Details and Validate Output Details">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[082018]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ASSearchTestMethodUINOutputValidation -->
+        <test-method name="ASSearchTestMethodUINOutputValidation" signature="ASSearchTestMethodUINOutputValidation(java.lang.String, java.lang.String)[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12]" status="PASS" duration-ms="16" finished-at="2019-07-11T13:21:23Z" started-at="2019-07-11T13:21:23Z" depends-on-methods="webassist.asSearch.ASSearchUINTest.ASSearchTestMethodUINCorrect" data-provider="ASSearchOutput" description="AS SEARCH UIN with All Valid Details and Validate Output Details">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AS Reg #]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1000000082]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ASSearchTestMethodUINOutputValidation -->
+        <test-method status="PASS" signature="fetchMostRecentTestResult(org.testng.ITestResult)[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12]" name="fetchMostRecentTestResult" is-config="true" duration-ms="0" started-at="2019-07-11T13:21:23Z" finished-at="2019-07-11T13:21:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ASSearchTestMethodUINOutputValidation status=SUCCESS method=ASSearchUINTest.ASSearchTestMethodUINOutputValidation(java.lang.String, java.lang.String)[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchMostRecentTestResult -->
+        <test-method name="ASSearchTestMethodUINOutputValidation" signature="ASSearchTestMethodUINOutputValidation(java.lang.String, java.lang.String)[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12]" status="PASS" duration-ms="15" finished-at="2019-07-11T13:21:23Z" started-at="2019-07-11T13:21:23Z" depends-on-methods="webassist.asSearch.ASSearchUINTest.ASSearchTestMethodUINCorrect" data-provider="ASSearchOutput" description="AS SEARCH UIN with All Valid Details and Validate Output Details">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Last Name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CONSEC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ASSearchTestMethodUINOutputValidation -->
+        <test-method status="PASS" signature="fetchMostRecentTestResult(org.testng.ITestResult)[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12]" name="fetchMostRecentTestResult" is-config="true" duration-ms="0" started-at="2019-07-11T13:21:23Z" finished-at="2019-07-11T13:21:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ASSearchTestMethodUINOutputValidation status=SUCCESS method=ASSearchUINTest.ASSearchTestMethodUINOutputValidation(java.lang.String, java.lang.String)[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchMostRecentTestResult -->
+        <test-method name="ASSearchTestMethodUINOutputValidation" signature="ASSearchTestMethodUINOutputValidation(java.lang.String, java.lang.String)[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12]" status="PASS" duration-ms="16" finished-at="2019-07-11T13:21:23Z" started-at="2019-07-11T13:21:23Z" depends-on-methods="webassist.asSearch.ASSearchUINTest.ASSearchTestMethodUINCorrect" data-provider="ASSearchOutput" description="AS SEARCH UIN with All Valid Details and Validate Output Details">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[First Name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BLNK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ASSearchTestMethodUINOutputValidation -->
+        <test-method status="PASS" signature="fetchMostRecentTestResult(org.testng.ITestResult)[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12]" name="fetchMostRecentTestResult" is-config="true" duration-ms="0" started-at="2019-07-11T13:21:23Z" finished-at="2019-07-11T13:21:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ASSearchTestMethodUINOutputValidation status=SUCCESS method=ASSearchUINTest.ASSearchTestMethodUINOutputValidation(java.lang.String, java.lang.String)[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchMostRecentTestResult -->
+        <test-method name="ASSearchTestMethodUINOutputValidation" signature="ASSearchTestMethodUINOutputValidation(java.lang.String, java.lang.String)[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12]" status="PASS" duration-ms="15" finished-at="2019-07-11T13:21:23Z" started-at="2019-07-11T13:21:23Z" depends-on-methods="webassist.asSearch.ASSearchUINTest.ASSearchTestMethodUINCorrect" data-provider="ASSearchOutput" description="AS SEARCH UIN with All Valid Details and Validate Output Details">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DOB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[030766]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ASSearchTestMethodUINOutputValidation -->
+        <test-method status="PASS" signature="fetchMostRecentTestResult(org.testng.ITestResult)[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12]" name="fetchMostRecentTestResult" is-config="true" duration-ms="0" started-at="2019-07-11T13:21:23Z" finished-at="2019-07-11T13:21:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ASSearchTestMethodUINOutputValidation status=SUCCESS method=ASSearchUINTest.ASSearchTestMethodUINOutputValidation(java.lang.String, java.lang.String)[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchMostRecentTestResult -->
+        <test-method status="PASS" signature="fetchMostRecentTestResult(org.testng.ITestResult)[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12]" name="fetchMostRecentTestResult" is-config="true" duration-ms="0" started-at="2019-07-11T13:21:23Z" finished-at="2019-07-11T13:21:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ASSearchTestMethodUINOutputValidation status=SUCCESS method=ASSearchUINTest.ASSearchTestMethodUINOutputValidation(java.lang.String, java.lang.String)[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchMostRecentTestResult -->
+        <test-method status="PASS" signature="ASSearchTestMethodUINPageResults()[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12]" name="ASSearchTestMethodUINPageResults" duration-ms="16260" started-at="2019-07-11T13:21:23Z" description="AS SEARCH with valid UIN and post Comment" depends-on-methods="webassist.asSearch.ASSearchUINTest.ASSearchTestMethodUINOutputValidation" finished-at="2019-07-11T13:21:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ASSearchTestMethodUINPageResults -->
+        <test-method status="PASS" signature="fetchMostRecentTestResult(org.testng.ITestResult)[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12]" name="fetchMostRecentTestResult" is-config="true" duration-ms="0" started-at="2019-07-11T13:21:39Z" finished-at="2019-07-11T13:21:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ASSearchTestMethodUINPageResults status=SUCCESS method=ASSearchUINTest.ASSearchTestMethodUINPageResults()[pri:0, instance:webassist.asSearch.ASSearchUINTest@77b52d12] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchMostRecentTestResult -->
+      </class> <!-- webassist.asSearch.ASSearchUINTest -->
+      <class name="webassist.role.RoleTest">
+        <test-method status="PASS" signature="enterRole(java.lang.String)[pri:0, instance:webassist.role.RoleTest@614c5515]" name="enterRole" duration-ms="8071" started-at="2019-07-11T13:20:14Z" description="Select desired Role" finished-at="2019-07-11T13:20:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SUPER]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterRole -->
+        <test-method status="PASS" signature="fetchMostRecentTestResult(org.testng.ITestResult)[pri:0, instance:webassist.role.RoleTest@614c5515]" name="fetchMostRecentTestResult" is-config="true" duration-ms="0" started-at="2019-07-11T13:20:22Z" finished-at="2019-07-11T13:20:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterRole status=SUCCESS method=RoleTest.enterRole(java.lang.String)[pri:0, instance:webassist.role.RoleTest@614c5515] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchMostRecentTestResult -->
+      </class> <!-- webassist.role.RoleTest -->
+      <class name="webassist.login.LoginTest">
+        <test-method status="PASS" signature="beforeSuiteSetup(org.testng.ITestContext)[pri:0, instance:webassist.login.LoginTest@6fb554cc]" name="beforeSuiteSetup" is-config="true" duration-ms="187" started-at="2019-07-11T13:19:29Z" finished-at="2019-07-11T13:19:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@61533ae]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteSetup -->
+        <test-method status="PASS" signature="beforeTestSetup(org.testng.ITestContext)[pri:0, instance:webassist.login.LoginTest@6fb554cc]" name="beforeTestSetup" is-config="true" duration-ms="31114" started-at="2019-07-11T13:19:30Z" finished-at="2019-07-11T13:20:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@61533ae]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestSetup -->
+        <test-method status="PASS" signature="loginWebAssistCorrect()[pri:0, instance:webassist.login.LoginTest@6fb554cc]" name="loginWebAssistCorrect" duration-ms="13228" started-at="2019-07-11T13:20:01Z" description="Login to WebAssist with valid credentials" finished-at="2019-07-11T13:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWebAssistCorrect -->
+        <test-method status="PASS" signature="fetchMostRecentTestResult(org.testng.ITestResult)[pri:0, instance:webassist.login.LoginTest@6fb554cc]" name="fetchMostRecentTestResult" is-config="true" duration-ms="0" started-at="2019-07-11T13:20:14Z" finished-at="2019-07-11T13:20:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWebAssistCorrect status=SUCCESS method=LoginTest.loginWebAssistCorrect()[pri:0, instance:webassist.login.LoginTest@6fb554cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchMostRecentTestResult -->
+        <test-method status="PASS" signature="closeAll()[pri:0, instance:webassist.login.LoginTest@6fb554cc]" name="closeAll" is-config="true" duration-ms="1466" started-at="2019-07-11T13:21:39Z" finished-at="2019-07-11T13:21:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+      </class> <!-- webassist.login.LoginTest -->
+    </test> <!-- AS Search UIN -->
+  </suite> <!-- ASSearch Execution Test for UIN -->
+</testng-results>

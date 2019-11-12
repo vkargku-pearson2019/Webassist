@@ -1,0 +1,184 @@
+# Created on 2019-06-19T13:59:23.786
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created on 2019-06-19T13:59:24.717
+Unexpected IOException with stream:  
+
+# Created on 2019-06-19T13:59:24.720
+Unexpected IOException with stream: t
+
+# Created on 2019-06-19T13:59:24.721
+Unexpected IOException with stream: e
+
+# Created on 2019-06-19T13:59:24.724
+Unexpected IOException with stream: s
+
+# Created on 2019-06-19T13:59:24.725
+Unexpected IOException with stream: t
+
+# Created on 2019-06-19T13:59:24.727
+Unexpected IOException with stream:  
+
+# Created on 2019-06-19T13:59:24.729
+Unexpected IOException with stream: f
+
+# Created on 2019-06-19T13:59:24.731
+Unexpected IOException with stream: r
+
+# Created on 2019-06-19T13:59:24.732
+Unexpected IOException with stream: a
+
+# Created on 2019-06-19T13:59:24.737
+Unexpected IOException with stream: m
+
+# Created on 2019-06-19T13:59:24.742
+Unexpected IOException with stream: e
+
+# Created on 2019-06-19T13:59:24.744
+Unexpected IOException with stream: w
+
+# Created on 2019-06-19T13:59:24.746
+Unexpected IOException with stream: o
+
+# Created on 2019-06-19T13:59:24.748
+Unexpected IOException with stream: r
+
+# Created on 2019-06-19T13:59:24.749
+Unexpected IOException with stream: k
+
+# Created on 2019-06-19T13:59:24.750
+Unexpected IOException with stream: s
+
+# Created on 2019-06-19T13:59:24.751
+Unexpected IOException with stream:  
+
+# Created on 2019-06-19T13:59:24.752
+Unexpected IOException with stream: t
+
+# Created on 2019-06-19T13:59:24.753
+Unexpected IOException with stream: o
+
+# Created on 2019-06-19T13:59:24.754
+Unexpected IOException with stream:  
+
+# Created on 2019-06-19T13:59:24.755
+Unexpected IOException with stream: p
+
+# Created on 2019-06-19T13:59:24.756
+Unexpected IOException with stream: r
+
+# Created on 2019-06-19T13:59:24.757
+Unexpected IOException with stream: e
+
+# Created on 2019-06-19T13:59:24.758
+Unexpected IOException with stream: v
+
+# Created on 2019-06-19T13:59:24.760
+Unexpected IOException with stream: e
+
+# Created on 2019-06-19T13:59:24.761
+Unexpected IOException with stream: n
+
+# Created on 2019-06-19T13:59:24.762
+Unexpected IOException with stream: t
+
+# Created on 2019-06-19T13:59:24.763
+Unexpected IOException with stream:  
+
+# Created on 2019-06-19T13:59:24.764
+Unexpected IOException with stream: a
+
+# Created on 2019-06-19T13:59:24.765
+Unexpected IOException with stream: c
+
+# Created on 2019-06-19T13:59:24.766
+Unexpected IOException with stream: c
+
+# Created on 2019-06-19T13:59:24.767
+Unexpected IOException with stream: e
+
+# Created on 2019-06-19T13:59:24.768
+Unexpected IOException with stream: s
+
+# Created on 2019-06-19T13:59:24.769
+Unexpected IOException with stream: s
+
+# Created on 2019-06-19T13:59:24.771
+Unexpected IOException with stream:  
+
+# Created on 2019-06-19T13:59:24.772
+Unexpected IOException with stream: b
+
+# Created on 2019-06-19T13:59:24.774
+Unexpected IOException with stream: y
+
+# Created on 2019-06-19T13:59:24.776
+Unexpected IOException with stream:  
+
+# Created on 2019-06-19T13:59:24.777
+Unexpected IOException with stream: m
+
+# Created on 2019-06-19T13:59:24.778
+Unexpected IOException with stream: a
+
+# Created on 2019-06-19T13:59:24.779
+Unexpected IOException with stream: l
+
+# Created on 2019-06-19T13:59:24.781
+Unexpected IOException with stream: i
+
+# Created on 2019-06-19T13:59:24.782
+Unexpected IOException with stream: c
+
+# Created on 2019-06-19T13:59:24.783
+Unexpected IOException with stream: i
+
+# Created on 2019-06-19T13:59:24.788
+Unexpected IOException with stream: o
+
+# Created on 2019-06-19T13:59:24.791
+Unexpected IOException with stream: u
+
+# Created on 2019-06-19T13:59:24.792
+Unexpected IOException with stream: s
+
+# Created on 2019-06-19T13:59:24.793
+Unexpected IOException with stream:  
+
+# Created on 2019-06-19T13:59:24.794
+Unexpected IOException with stream: c
+
+# Created on 2019-06-19T13:59:24.795
+Unexpected IOException with stream: o
+
+# Created on 2019-06-19T13:59:24.796
+Unexpected IOException with stream: d
+
+# Created on 2019-06-19T13:59:24.797
+Unexpected IOException with stream: e
+
+# Created on 2019-06-19T13:59:24.799
+Unexpected IOException with stream: .
+
+# Created on 2019-06-19T13:59:24.800
+Unexpected IOException with stream: 
+
+# Created on 2019-06-19T13:59:24.801
+Unexpected IOException with stream: 
+
+
+# Created on 2019-06-19T13:59:27.872
+Unexpected IOException with stream: Jun 19, 2019 1:59:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+
+
+# Created on 2019-06-19T13:59:30.197
+Unexpected IOException: 5,1,webassist.login.LoginTest,loginWebAssistCorrect(webassist.login.LoginTest),webassist.login.LoginTest,null,null
+
+

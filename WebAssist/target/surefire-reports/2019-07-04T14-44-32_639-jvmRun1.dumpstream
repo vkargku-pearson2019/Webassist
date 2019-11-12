@@ -1,0 +1,30 @@
+# Created on 2019-07-04T14:46:07.364
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created on 2019-07-04T14:46:10.094
+Unexpected IOException: 8,1,webassist.role.RoleTest,enterRoleName(webassist.role.RoleTest),null,no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//button[text()='Proceed']"}\000A  (Session info: chrome=75.0.3770.100)\000AFor documentation on this error\002C please visit: http://seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: '01HW808506'\002C ip: '10.151.241.181'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_141'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 75.0.3770.100\002C chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f...\002C userDataDir: C:\005CUsers\005C1436866\005CAppData\005CLo...}\002C goog:chromeOptions: {debuggerAddress: localhost:53941}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: fa4e79ecd2bd7d45ed5d1c6ace36a841\000A*** Element info: {Using=xpath\002C value=//button[text()='Proceed']},null,no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//button[text()='Proceed']"}\000A  (Session info: chrome=75.0.3770.100)\000AFor documentation on this error\002C please visit: http://seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: '01HW808506'\002C ip: '10.151.241.181'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_141'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 75.0.3770.100\002C chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f...\002C userDataDir: C:\005CUsers\005C1436866\005CAppData\005CLo...}\002C goog:chromeOptions: {debuggerAddress: localhost:53941}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: fa4e79ecd2bd7d45ed5d1c6ace36a841\000A*** Element info: {Using=xpath\002C value=//button[text()='Proceed']},RoleTest.enterRoleName:29 \00BB NoSuchElement no such element: Unable to locate el...,org.openqa.selenium.NoSuchElementException: \000Ano such element: Unable to locate element: {"method":"xpath"\002C"selector":"//button[text()='Proceed']"}\000A  (Session info: chrome=75.0.3770.100)\000AFor documentation on this error\002C please visit: http://seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: '01HW808506'\002C ip: '10.151.241.181'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_141'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 75.0.3770.100\002C chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f...\002C userDataDir: C:\005CUsers\005C1436866\005CAppData\005CLo...}\002C goog:chromeOptions: {debuggerAddress: localhost:53941}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: fa4e79ecd2bd7d45ed5d1c6ace36a841\000A*** Element info: {Using=xpath\002C value=//button[text()='Proceed']}\000A\0009at webassist.role.RoleTest.enterRoleName(RoleTest.java:29)\000A
+
+
+# Created on 2019-07-04T14:46:10.098
+Unexpected IOException with stream: Select different Roles : FAIL 
+
+
+# Created on 2019-07-04T14:46:11.136
+Unexpected IOException with stream: Jul 04, 2019 2:46:11 PM org.openqa.selenium.remote.Augmenter extractRemoteWebDriver
+WARNING: Augmenter should be applied to the instances of @Augmentable classes or previously augmented instances only (instance class was: class org.openqa.selenium.chrome.ChromeDriver)
+
+
+# Created on 2019-07-04T14:46:13.464
+Unexpected IOException with stream: [TestHTMLReporter] The filename, directory name, or volume label syntax is incorrect
+
+
+# Created on 2019-07-04T14:46:13.629
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

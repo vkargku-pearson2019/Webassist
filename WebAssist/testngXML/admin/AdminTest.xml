@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Admin Page Search">
+	<test name="Admin Page Search Test">
+	<parameter name="testDescription" value="Admin Page Username Search Test" />
+		<parameter name="role" value="ADMIN"/>
+		<parameter name="username" value="FITZTI"/>
+		<parameter name="roleStatus" value="Y"/>
+		<parameter name="confViewStatus" value="N" />
+		<classes>
+			<class name="webassist.login.LoginTest">
+				<methods>
+					<include name="loginWebAssistCorrect"/>
+				</methods>
+			</class>
+			<class name="webassist.role.RoleTest">
+			<methods>
+					<include name="enterRole" />
+				</methods>
+				</class>
+			<class name="webassist.admin.AdminTest"/>
+		</classes>
+	</test>
+</suite>

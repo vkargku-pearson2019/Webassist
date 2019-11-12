@@ -1,0 +1,27 @@
+# Created on 2019-07-11T16:05:01.472
+org.testng.TestNGException: 
+webassist.asSearch.ASSearchUINTest.ASSearchTestMethodUINOutputValidation() depends on nonexistent method ASSearchTestMethodBatch
+	at org.testng.internal.MethodHelper.findDependedUponMethods(MethodHelper.java:126)
+	at org.testng.internal.MethodHelper.topologicalSort(MethodHelper.java:266)
+	at org.testng.internal.MethodHelper.sortMethods(MethodHelper.java:376)
+	at org.testng.internal.MethodHelper.collectAndOrderMethods(MethodHelper.java:65)
+	at org.testng.TestRunner.initMethods(TestRunner.java:438)
+	at org.testng.TestRunner.init(TestRunner.java:271)
+	at org.testng.TestRunner.init(TestRunner.java:241)
+	at org.testng.TestRunner.<init>(TestRunner.java:167)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:663)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:260)
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:198)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1295)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1273)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+
+

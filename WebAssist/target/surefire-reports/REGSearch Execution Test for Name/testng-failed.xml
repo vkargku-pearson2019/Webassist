@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [REGSearch Execution Test for Name]">
+  <test thread-count="5" verbose="0" name="Reg Search Name(failed)">
+    <parameter name="role" value="SUPER"/>
+    <parameter name="last" value="NOESSY"/>
+    <parameter name="testDescription" value="REG Search by Name Test"/>
+    <parameter name="first" value="DOCA"/>
+    <classes>
+      <class name="webassist.regSearch.RegSearchNameTest">
+        <methods>
+          <include name="RegSearchTestMethodNameClear" invocation-numbers="0"/>
+          <include name="RegSearchTestMethodInvalidFirstName"/>
+          <include name="RegSearchTestMethodNameCorrect"/>
+          <include name="RegSearchTestMethodLastName"/>
+          <include name="beforeTestSetup"/>
+          <include name="fetchMostRecentTestResult"/>
+          <include name="RegSearchTestMethodInvalidLastName"/>
+          <include name="RegSearchTestMethodFirstName"/>
+          <include name="RegSearchTestMethodLongFirstName"/>
+          <include name="closeAll"/>
+          <include name="RegSearchTestMethodLongLastName"/>
+          <include name="beforeSuiteSetup"/>
+        </methods>
+      </class> <!-- webassist.regSearch.RegSearchNameTest -->
+    </classes>
+  </test> <!-- Reg Search Name(failed) -->
+</suite> <!-- Failed suite [REGSearch Execution Test for Name] -->
