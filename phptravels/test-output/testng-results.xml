@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PHPTRAVELS" duration-ms="65634" started-at="2019-11-28T09:48:40Z" finished-at="2019-11-28T09:49:46Z">
+    <groups>
+    </groups>
+    <test name="Open the browser phptravels" duration-ms="65634" started-at="2019-11-28T09:48:40Z" finished-at="2019-11-28T09:49:46Z">
+      <class name="DemoBDDkk.testfilesphp.Loginphptest">
+        <test-method status="PASS" signature="beforeSuiteSetup()[pri:0, instance:DemoBDDkk.testfilesphp.Loginphptest@464bee09]" name="beforeSuiteSetup" is-config="true" duration-ms="18" started-at="2019-11-28T09:48:40Z" finished-at="2019-11-28T09:48:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteSetup -->
+        <test-method status="PASS" signature="beforeTestSetup()[pri:0, instance:DemoBDDkk.testfilesphp.Loginphptest@464bee09]" name="beforeTestSetup" is-config="true" duration-ms="64281" started-at="2019-11-28T09:48:40Z" finished-at="2019-11-28T09:49:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestSetup -->
+        <test-method status="FAIL" signature="Loginphptravels()[pri:0, instance:DemoBDDkk.testfilesphp.Loginphptest@464bee09]" name="Loginphptravels" duration-ms="1050" started-at="2019-11-28T09:49:44Z" finished-at="2019-11-28T09:49:45Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='ink animate']"}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: '01HW902838', ip: '10.25.150.2', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\1241499\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 518553c64da1db2d3407b7f2921461a7
+*** Element info: {Using=xpath, value=//*[@class='ink animate']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='ink animate']"}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: '01HW902838', ip: '10.25.150.2', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\1241499\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 518553c64da1db2d3407b7f2921461a7
+*** Element info: {Using=xpath, value=//*[@class='ink animate']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.click(Unknown Source)
+at DemoBDDkk.pageobjectphp.Loginphp.clickloginbutton(Loginphp.java:42)
+at DemoBDDkk.pageobjectphp.Loginphp.clicklogin(Loginphp.java:38)
+at DemoBDDkk.testfilesphp.Loginphptest.Loginphptravels(Loginphptest.java:21)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginphptravels -->
+      </class> <!-- DemoBDDkk.testfilesphp.Loginphptest -->
+    </test> <!-- Open the browser phptravels -->
+  </suite> <!-- PHPTRAVELS -->
+</testng-results>

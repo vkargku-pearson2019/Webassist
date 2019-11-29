@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PHPTRAVELS">
+ <test name="Open the browser phptravels">
+ <classes>
+			<class name="DemoBDDkk.testfilesphp.Loginphptest">
+			</class>
+				</classes>
+ 	</test>
+</suite>
+ 
+ 
+ 
+ 
+ 
+ 

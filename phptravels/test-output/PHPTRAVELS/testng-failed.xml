@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PHPTRAVELS]">
+  <test thread-count="5" name="Open the browser phptravels(failed)">
+    <classes>
+      <class name="DemoBDDkk.testfilesphp.Loginphptest">
+        <methods>
+          <include name="Loginphptravels"/>
+          <include name="beforeSuiteSetup"/>
+          <include name="beforeTestSetup"/>
+        </methods>
+      </class> <!-- DemoBDDkk.testfilesphp.Loginphptest -->
+    </classes>
+  </test> <!-- Open the browser phptravels(failed) -->
+</suite> <!-- Failed suite [PHPTRAVELS] -->
